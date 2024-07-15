@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://6xp2lqvu77nb"
+path="res://.godot/imported/pig.ase-6be9f6cb03d1e7252735dce5a32d32f9.res"
+
+[deps]
+
+source_file="res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/pig/pig.ase"
+dest_files=["res://.godot/imported/pig.ase-6be9f6cb03d1e7252735dce5a32d32f9.res"]
+
+[params]
+

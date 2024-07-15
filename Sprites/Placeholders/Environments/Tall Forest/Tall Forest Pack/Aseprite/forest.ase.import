@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dxarpje8ew6nt"
+path="res://.godot/imported/forest.ase-c9a574f45e4ad90d4a5d586575eb2f95.res"
+
+[deps]
+
+source_file="res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Aseprite/forest.ase"
+dest_files=["res://.godot/imported/forest.ase-c9a574f45e4ad90d4a5d586575eb2f95.res"]
+
+[params]
+

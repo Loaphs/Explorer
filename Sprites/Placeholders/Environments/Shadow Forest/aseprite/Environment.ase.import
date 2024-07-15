@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://byc7i0210k651"
+path="res://.godot/imported/Environment.ase-fe95cc74b627cbcdac2dc62663aa3791.res"
+
+[deps]
+
+source_file="res://Sprites/Placeholders/Environments/Shadow Forest/aseprite/Environment.ase"
+dest_files=["res://.godot/imported/Environment.ase-fe95cc74b627cbcdac2dc62663aa3791.res"]
+
+[params]
+

@@ -1,13 +1,1448 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721017171
+::res://::1721018871
 icon.svg::CompressedTexture2D::5881680366592498674::1720920308::1720920313::1::::<><>::
-Player.gd::GDScript::-1::1720923263::0::1::::<>CharacterBody2D<>::
+Player.gd::GDScript::-1::1721018652::0::1::::<>CharacterBody2D<>::
+README.md::TextFile::-1::1721018209::0::1::::<><>::
+::res://addons/::1721018141
+::res://addons/AsepriteWizard/::1721018143
+plugin.cfg::TextFile::-1::1721018143::0::1::::<><>::
+plugin.gd::GDScript::-1::1721018143::0::1::::<>EditorPlugin<>::
+::res://addons/AsepriteWizard/aseprite/::1721018141
+aseprite.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+file_exporter.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/config/::1721018141
+config.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+config_dialog.gd::GDScript::-1::1721018141::0::1::::<>PopupPanel<>::
+config_dialog.tscn::PackedScene::8959845410224223728::1721018141::0::1::::<><>::res://addons/AsepriteWizard/config/config_dialog.gd
+result_codes.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+wizard_config.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/creators/::1721018141
+base_sprite_resource_creator.gd::GDScript::-1::1721018141::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/creators/animation_player/::1721018141
+animation_creator.gd::GDScript::-1::1721018141::0::1::::<><>::
+sprite_animation_creator.gd::GDScript::-1::1721018141::0::1::::<><>::
+texture_rect_animation_creator.gd::GDScript::-1::1721018141::0::1::::<><>::
+::res://addons/AsepriteWizard/creators/sprite_frames/::1721018141
+sprite_frames_creator.gd::GDScript::-1::1721018141::0::1::::<><>::
+::res://addons/AsepriteWizard/creators/static_texture/::1721018141
+texture_creator.gd::GDScript::-1::1721018141::0::1::::<><>::
+::res://addons/AsepriteWizard/export/::1721018141
+metadata_export_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorExportPlugin<>::
+::res://addons/AsepriteWizard/importers/::1721018141
+noop_import_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorImportPlugin<>::
+sprite_frames_import_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorImportPlugin<>::
+static_texture_import_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorImportPlugin<>::
+tileset_texture_import_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorImportPlugin<>::
+::res://addons/AsepriteWizard/interface/::1721018142
+::res://addons/AsepriteWizard/interface/docks/::1721018142
+base_inspector_dock.gd::GDScript::-1::1721018141::0::1::::<>PanelContainer<>::
+base_inspector_dock.tscn::PackedScene::790936594926835372::1721018141::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/base_inspector_dock.gd<>uid://x1f1t87m582u::::res://addons/AsepriteWizard/interface/shared/animation_player_drop_button.tscn<>uid://dj1uo3blocr8e::::res://addons/AsepriteWizard/interface/shared/source_drop_button.tscn<>uid://cwvgnm3o7eed2::::res://addons/AsepriteWizard/interface/shared/dir_drop_button.tscn
+dock_fields.gd::GDScript::-1::1721018141::0::1::::<>MarginContainer<>::
+dock_fields.tscn::PackedScene::1452043402822489973::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/dock_fields.gd<>uid://x1f1t87m582u::::res://addons/AsepriteWizard/interface/shared/animation_player_drop_button.tscn<>uid://dj1uo3blocr8e::::res://addons/AsepriteWizard/interface/shared/source_drop_button.tscn<>uid://cwvgnm3o7eed2::::res://addons/AsepriteWizard/interface/shared/dir_drop_button.tscn
+::res://addons/AsepriteWizard/interface/docks/animated_sprite/::1721018141
+animated_sprite_inspector_dock.gd::GDScript::-1::1721018141::0::1::::<><>::
+animated_sprite_inspector_dock.tscn::PackedScene::1482828111488489973::1721018141::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/animated_sprite/animated_sprite_inspector_dock.gd<>uid://uxm7b02wry10::::res://addons/AsepriteWizard/interface/docks/dock_fields.tscn
+inspector_plugin.gd::GDScript::-1::1721018141::0::1::::<>EditorInspectorPlugin<>::
+::res://addons/AsepriteWizard/interface/docks/sprite/::1721018142
+inspector_plugin.gd::GDScript::-1::1721018142::0::1::::<>EditorInspectorPlugin<>::
+sprite_inspector_dock.gd::GDScript::-1::1721018142::0::1::::<><>::
+sprite_inspector_dock.tscn::PackedScene::2998581922542402478::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd<>uid://uxm7b02wry10::::res://addons/AsepriteWizard/interface/docks/dock_fields.tscn
+::res://addons/AsepriteWizard/interface/docks/wizard/::1721018142
+as_wizard_dock_container.gd::GDScript::-1::1721018142::0::1::::<>TabContainer<>::
+as_wizard_dock_container.tscn::PackedScene::4764297739002286173::1721018142::0::1::::<><>::uid://c5dwobjd34w3p::::res://addons/AsepriteWizard/interface/docks/wizard/as_wizard_window.tscn<>res://addons/AsepriteWizard/interface/docks/wizard/as_wizard_dock_container.gd<>uid://cyoin5ncul0fm::::res://addons/AsepriteWizard/interface/docks/wizard/sprite_frames_import_history.tscn<>uid://bfhsdslj8kt7b::::res://addons/AsepriteWizard/interface/docks/wizard/imported_sprite_frames.tscn
+as_wizard_window.gd::GDScript::-1::1721018142::0::1::::<>PanelContainer<>::
+as_wizard_window.tscn::PackedScene::6886060651346363495::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/as_wizard_window.gd
+imported_sprite_frames.gd::GDScript::-1::1721018142::0::1::::<>PanelContainer<>::
+imported_sprite_frames.tscn::PackedScene::2752914772279777613::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/imported_sprite_frames.gd<>uid://cisgsfvp4nf1g::::res://addons/AsepriteWizard/interface/shared/tree/resource_tree.tscn<>uid://q7eyyg2kvvv2::::res://addons/AsepriteWizard/interface/docks/wizard/resource_tree_single_item.tscn<>uid://fscemkx5w1dw::::res://addons/AsepriteWizard/interface/docks/wizard/resource_tree_multiple_items.tscn<>uid://qgmln507kjnm::::res://addons/AsepriteWizard/interface/shared/tree/tree_selection_confirmation_warning.tscn
+resource_tree_multiple_items.gd::GDScript::-1::1721018142::0::1::::<>VBoxContainer<>::
+resource_tree_multiple_items.tscn::PackedScene::388232241738635988::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/resource_tree_multiple_items.gd
+resource_tree_single_item.gd::GDScript::-1::1721018142::0::1::::<>VBoxContainer<>::
+resource_tree_single_item.tscn::PackedScene::1189368584433414497::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/resource_tree_single_item.gd<>uid://c1l0bk12iwln3::::res://addons/AsepriteWizard/interface/shared/tree/inline_warning_panel.tscn
+sprite_frames_import_history.gd::GDScript::-1::1721018142::0::1::::<>PanelContainer<>::
+sprite_frames_import_history.tscn::PackedScene::6486785450419732274::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/sprite_frames_import_history.gd
+wizard_import_helper.gd::GDScript::-1::1721018142::0::1::::<>Node<>::
+::res://addons/AsepriteWizard/interface/docks/wizard/wizard_nodes/::1721018142
+details.gd::GDScript::-1::1721018142::0::1::::<>VBoxContainer<>::
+details.tscn::PackedScene::4230025582002195470::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/wizard_nodes/details.gd
+import_date.gd::GDScript::-1::1721018142::0::1::::<>Label<>::
+import_date.tscn::PackedScene::3701966676920363124::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/wizard_nodes/import_date.gd
+list_actions.gd::GDScript::-1::1721018142::0::1::::<>HBoxContainer<>::
+list_actions.tscn::PackedScene::-1::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/wizard_nodes/list_actions.gd
+output_path.tscn::PackedScene::-1::1721018142::0::1::::<><>::
+source_path.gd::GDScript::-1::1721018142::0::1::::<>LineEdit<>::
+source_path.tscn::PackedScene::-1::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/docks/wizard/wizard_nodes/source_path.gd
+::res://addons/AsepriteWizard/interface/imports_manager/::1721018142
+aseprite_imports_manager.gd::GDScript::-1::1721018142::0::1::::<>Window<>::
+aseprite_imports_manager.tscn::PackedScene::1803923898729981441::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/imports_manager/aseprite_imports_manager.gd
+dock_imports_panel.gd::GDScript::-1::1721018142::0::1::::<>Panel<>::
+dock_imports_panel.tscn::PackedScene::158833016359251406::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/imports_manager/dock_imports_panel.gd<>uid://cisgsfvp4nf1g::::res://addons/AsepriteWizard/interface/shared/tree/resource_tree.tscn<>uid://qgmln507kjnm::::res://addons/AsepriteWizard/interface/shared/tree/tree_selection_confirmation_warning.tscn<>uid://dnlk2yep7teea::::res://addons/AsepriteWizard/interface/imports_manager/tree_selection_single_item.tscn<>uid://bhtu6mlwmthqo::::res://addons/AsepriteWizard/interface/imports_manager/tree_selection_multiple_items.tscn
+import_helper.gd::GDScript::-1::1721018142::0::1::::<>RefCounted<>::
+import_panels.gd::GDScript::-1::1721018142::0::1::::<>MarginContainer<>::
+import_panels.tscn::PackedScene::2396348643686595639::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/imports_manager/import_panels.gd<>uid://ci67r2f2btg5::::res://addons/AsepriteWizard/interface/imports_manager/dock_imports_panel.tscn
+tree_filter_field.gd::GDScript::-1::1721018142::0::1::::<>LineEdit<>::
+tree_selection_multiple_items.gd::GDScript::-1::1721018142::0::1::::<>VBoxContainer<>::
+tree_selection_multiple_items.tscn::PackedScene::2918236114242265634::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/imports_manager/tree_selection_multiple_items.gd
+tree_selection_single_item.gd::GDScript::-1::1721018142::0::1::::<>VBoxContainer<>::
+tree_selection_single_item.tscn::PackedScene::8095081827496145296::1721018142::0::1::::<><>::res://addons/AsepriteWizard/interface/imports_manager/tree_selection_single_item.gd<>uid://c1l0bk12iwln3::::res://addons/AsepriteWizard/interface/shared/tree/inline_warning_panel.tscn
+::res://addons/AsepriteWizard/interface/shared/::1721018143
+animation_player_drop_button.gd::GDScript::-1::1721018142::0::1::::<>Button<>::
+animation_player_drop_button.tscn::PackedScene::1668368291279044894::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/animation_player_drop_button.gd
+dir_drop_button.gd::GDScript::-1::1721018143::0::1::::<>Button<>::
+dir_drop_button.tscn::PackedScene::6360736051749278321::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/dir_drop_button.gd
+source_drop_button.gd::GDScript::-1::1721018143::0::1::::<>Button<>::
+source_drop_button.tscn::PackedScene::7845876279114352826::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/source_drop_button.gd
+::res://addons/AsepriteWizard/interface/shared/tree/::1721018143
+inline_warning_panel.gd::GDScript::-1::1721018143::0::1::::<>PanelContainer<>::
+inline_warning_panel.tscn::PackedScene::6621979734519509394::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/tree/inline_warning_panel.gd
+resource_tree.gd::GDScript::-1::1721018143::0::1::::<>VBoxContainer<>::
+resource_tree.tscn::PackedScene::5371907658088870246::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/tree/resource_tree.gd<>res://addons/AsepriteWizard/interface/imports_manager/tree_filter_field.gd
+tree_selection_confirmation_warning.gd::GDScript::-1::1721018143::0::1::::<>VBoxContainer<>::
+tree_selection_confirmation_warning.tscn::PackedScene::1136156742705764826::1721018143::0::1::::<><>::res://addons/AsepriteWizard/interface/shared/tree/tree_selection_confirmation_warning.gd
 ::res://Scenes/::1720921087
-::res://Scenes/Bodies/::1720923016
-player.tscn::PackedScene::5422964088100407947::1720923016::0::1::::<><>::res://Player.gd<>uid://cp2eofi10n6fu
+::res://Scenes/Bodies/::1721018654
+player.tscn::PackedScene::5422964088100407947::1721018654::0::1::::<><>::res://Player.gd<>uid://cp2eofi10n6fu::::res://icon.svg
 ::res://Scenes/Environment/::1720921079
 ::res://Scenes/UI/::1720921083
-::res://Scenes/Worlds/::1721016892
-world.tscn::PackedScene::6449451798249684381::1721016892::0::1::::<><>::uid://cji6oqynhce0j::::res://Scenes/Bodies/player.tscn
+::res://Scenes/Worlds/::1721018897
+world.tscn::PackedScene::6449451798249684381::1721018897::0::1::::<><>::uid://cji6oqynhce0j::::res://Scenes/Bodies/player.tscn
 ::res://Scripts/::1720921060
-::res://Sprites/::1720921063
+::res://Sprites/::1721018915
+::res://Sprites/Placeholders/::1721019019
+::res://Sprites/Placeholders/Characters/::1721019017
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/::1721019016
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Aseprite/::1721019015
+bettle.ase::PackedDataContainer::1792834980221706910::1721019015::1721019025::1::::<><>::
+dino.ase::PackedDataContainer::6749339204007589290::1721019015::1721019025::1::::<><>::
+dog.ase::PackedDataContainer::8977967955414261957::1721019015::1721019025::1::::<><>::
+slimer.ase::PackedDataContainer::1311727202624048504::1721019015::1721019025::1::::<><>::
+vulture.ase::PackedDataContainer::3957486177564597163::1721019015::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/previews/::1721019015
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/::1721019016
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Bettle/::1721019015
+bettle1.png::CompressedTexture2D::8283911604068281349::1721019015::1721019024::1::::<><>::
+bettle2.png::CompressedTexture2D::7048386053737452911::1721019015::1721019024::1::::<><>::
+bettle3.png::CompressedTexture2D::3917090847380274417::1721019015::1721019024::1::::<><>::
+bettle4.png::CompressedTexture2D::7613233919958820227::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Dino/::1721019015
+dino1.png::CompressedTexture2D::2368137337399232688::1721019015::1721019024::1::::<><>::
+dino2.png::CompressedTexture2D::4156815793822053546::1721019015::1721019024::1::::<><>::
+dino3.png::CompressedTexture2D::3944342449749427410::1721019015::1721019024::1::::<><>::
+dino4.png::CompressedTexture2D::1239605278256059545::1721019015::1721019024::1::::<><>::
+dino5.png::CompressedTexture2D::1744458379567397038::1721019015::1721019024::1::::<><>::
+dino6.png::CompressedTexture2D::7810606433484602078::1721019015::1721019024::1::::<><>::
+dino7.png::CompressedTexture2D::7948263538315116648::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Dino-Idle/::1721019015
+dino-idle1.png::CompressedTexture2D::7278961628305616826::1721019015::1721019024::1::::<><>::
+dino-idle2.png::CompressedTexture2D::6214104823711870876::1721019015::1721019024::1::::<><>::
+dino-idle3.png::CompressedTexture2D::8993586751155993425::1721019015::1721019024::1::::<><>::
+dino-idle4.png::CompressedTexture2D::7030079027652477861::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Dog/::1721019015
+dog1.png::CompressedTexture2D::4077923238973005749::1721019015::1721019024::1::::<><>::
+dog2.png::CompressedTexture2D::3909771313141705267::1721019015::1721019024::1::::<><>::
+dog3.png::CompressedTexture2D::370463104401119899::1721019015::1721019024::1::::<><>::
+dog4.png::CompressedTexture2D::5619464117153415825::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Dog-idle/::1721019015
+dog-idlet1.png::CompressedTexture2D::6420552404202317681::1721019015::1721019024::1::::<><>::
+dog-idlet2.png::CompressedTexture2D::950397405701697225::1721019015::1721019024::1::::<><>::
+dog-idlet3.png::CompressedTexture2D::2931789278494706366::1721019015::1721019024::1::::<><>::
+dog-idlet4.png::CompressedTexture2D::1102783694741578082::1721019015::1721019024::1::::<><>::
+dog-idlet5.png::CompressedTexture2D::3511325879924182155::1721019015::1721019024::1::::<><>::
+dog-idlet6.png::CompressedTexture2D::2058684379927625831::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Slimer/::1721019015
+slimer1.png::CompressedTexture2D::4624531675430454837::1721019015::1721019024::1::::<><>::
+slimer2.png::CompressedTexture2D::4842191061234112779::1721019015::1721019024::1::::<><>::
+slimer3.png::CompressedTexture2D::967105584458832482::1721019015::1721019024::1::::<><>::
+slimer4.png::CompressedTexture2D::3104181749305672334::1721019015::1721019024::1::::<><>::
+slimer5.png::CompressedTexture2D::7244071491265518456::1721019015::1721019024::1::::<><>::
+slimer6.png::CompressedTexture2D::3211879664479724053::1721019015::1721019024::1::::<><>::
+slimer7.png::CompressedTexture2D::1886225942471999521::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Slimer-Idle/::1721019015
+slimer-idle1.png::CompressedTexture2D::5508184611339103119::1721019015::1721019024::1::::<><>::
+slimer-idle2.png::CompressedTexture2D::3084328837348495773::1721019015::1721019024::1::::<><>::
+slimer-idle3.png::CompressedTexture2D::2544825985428657213::1721019015::1721019024::1::::<><>::
+slimer-idle4.png::CompressedTexture2D::9194641612245669340::1721019015::1721019024::1::::<><>::
+slimer-idle5.png::CompressedTexture2D::7479364607813244299::1721019015::1721019024::1::::<><>::
+slimer-idle6.png::CompressedTexture2D::5746397777205593286::1721019015::1721019024::1::::<><>::
+slimer-idle7.png::CompressedTexture2D::6833983065881909374::1721019015::1721019024::1::::<><>::
+slimer-idle8.png::CompressedTexture2D::1505976919743569716::1721019015::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Vulture/::1721019016
+vulture1.png::CompressedTexture2D::3610819771886430894::1721019015::1721019024::1::::<><>::
+vulture2.png::CompressedTexture2D::6054746444397852183::1721019016::1721019024::1::::<><>::
+vulture3.png::CompressedTexture2D::4245307685896845623::1721019016::1721019024::1::::<><>::
+vulture4.png::CompressedTexture2D::5067293611954535210::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/Sprites/Vulture-Idle/::1721019016
+vulture-idle1.png::CompressedTexture2D::4056804390079832911::1721019016::1721019024::1::::<><>::
+vulture-idle2.png::CompressedTexture2D::6475752808178630501::1721019016::1721019024::1::::<><>::
+vulture-idle3.png::CompressedTexture2D::1338325254667251380::1721019016::1721019024::1::::<><>::
+vulture-idle4.png::CompressedTexture2D::1043713303011174717::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Chibi Enemies Pack/spritesheets/::1721019016
+bettle.png::CompressedTexture2D::5804549349605837271::1721019016::1721019024::1::::<><>::
+dino-idle.png::CompressedTexture2D::5403508954401381841::1721019016::1721019024::1::::<><>::
+dino.png::CompressedTexture2D::5213704512345049296::1721019016::1721019024::1::::<><>::
+dog-idle.png::CompressedTexture2D::5447577498698617277::1721019016::1721019024::1::::<><>::
+dog.png::CompressedTexture2D::6431796042161025555::1721019016::1721019024::1::::<><>::
+slimer-idle.png::CompressedTexture2D::1499304265742304373::1721019016::1721019024::1::::<><>::
+slimer.png::CompressedTexture2D::1453597328284887847::1721019016::1721019024::1::::<><>::
+vulture-idle.png::CompressedTexture2D::5194246293686151869::1721019016::1721019024::1::::<><>::
+vulture.png::CompressedTexture2D::1339030062275688527::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/enemy-ghost/::1721019016
+::res://Sprites/Placeholders/Characters/enemy-ghost/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/enemy-ghost/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/enemy-ghost/Sprites/::1721019016
+::res://Sprites/Placeholders/Characters/enemy-ghost/Sprites/No-Particles/::1721019016
+transparent-no-particles-export1.png::CompressedTexture2D::2992446902540608579::1721019016::1721019024::1::::<><>::
+transparent-no-particles-export2.png::CompressedTexture2D::1432436246247952304::1721019016::1721019024::1::::<><>::
+transparent-no-particles-export3.png::CompressedTexture2D::5583435899470576443::1721019016::1721019024::1::::<><>::
+transparent-no-particles-export4.png::CompressedTexture2D::2244063653071023928::1721019016::1721019024::1::::<><>::
+transparent-no-particles-export5.png::CompressedTexture2D::2028909089296351678::1721019016::1721019024::1::::<><>::
+transparent-no-particles-export6.png::CompressedTexture2D::3042180160022339819::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/enemy-ghost/Sprites/Particles/::1721019016
+transparent-particles-export1.png::CompressedTexture2D::1960444846107790496::1721019016::1721019024::1::::<><>::
+transparent-particles-export2.png::CompressedTexture2D::4350612320441235642::1721019016::1721019024::1::::<><>::
+transparent-particles-export3.png::CompressedTexture2D::1394823494156094344::1721019016::1721019024::1::::<><>::
+transparent-particles-export4.png::CompressedTexture2D::6120872249900073370::1721019016::1721019024::1::::<><>::
+transparent-particles-export5.png::CompressedTexture2D::2882822333086306337::1721019016::1721019024::1::::<><>::
+transparent-particles-export6.png::CompressedTexture2D::4009207571158008455::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/enemy-ghost/Spritesheets/::1721019016
+transparent-no-particles.png::CompressedTexture2D::5708469253650849433::1721019016::1721019024::1::::<><>::
+transparent-particles.png::CompressedTexture2D::7309887719190517533::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/flying-bird/::1721019016
+::res://Sprites/Placeholders/Characters/flying-bird/previews/::1721019016
+::res://Sprites/Placeholders/Characters/flying-bird/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/flying-bird/Sprites/::1721019016
+flying-creature-cycle-skin1.png::CompressedTexture2D::3988905735273505886::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin2.png::CompressedTexture2D::6766105801239745478::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin3.png::CompressedTexture2D::6063649432223353290::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin4.png::CompressedTexture2D::8187894665645566113::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin5.png::CompressedTexture2D::5991950780988386465::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin6.png::CompressedTexture2D::930036058618085529::1721019016::1721019024::1::::<><>::
+flying-creature-cycle-skin7.png::CompressedTexture2D::4681992777107473287::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/flying-bird/spritesheets/::1721019016
+flying-creature-cycle-skin.png::CompressedTexture2D::6663580097604757217::1721019016::1721019024::1::::<><>::
+flying-creature-cycle.png::CompressedTexture2D::10117709834340434::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/sprites/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/sprites/breath/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4549607004840280585::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1825451254651563076::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::1274811477040225145::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5774898892608682420::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::142588414753689962::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::6919567422933936474::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::3985645110984597504::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/sprites/idle/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::6102590467412993436::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::8139911593320290228::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::9204309638812126318::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5217435753089414084::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::2794297650944596961::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::1511969808515369989::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/sprites/tail/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4817037683800454393::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5744194639775198349::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::708233561309752592::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::4284620591702382108::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::5723662716644281409::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::4523189794464519053::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::8731133439624353422::1721019016::1721019024::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::3237425775450403797::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-boss-dragon/spritesheets/::1721019016
+breath.png::CompressedTexture2D::2209360106343582292::1721019016::1721019024::1::::<><>::
+idle.png::CompressedTexture2D::518129985134371695::1721019016::1721019024::1::::<><>::
+tail.png::CompressedTexture2D::2086856423511101047::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/electro-shock/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::6091989951247898329::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::8122288629610344103::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8901399040674085511::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7699209223569226728::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::2839856504779275658::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::6404886145704166919::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::4246861980705439923::1721019016::1721019024::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::8389324472203979840::1721019016::1721019024::1::::<><>::
+_0008_Layer-9.png::CompressedTexture2D::6534201936352056988::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/enemy-death/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::6267379310803475721::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5294692629786715043::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::2201232454745863184::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5996550519257967928::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::6585905928872283541::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::5332685577270269446::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::2650680490220929274::1721019016::1721019024::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::23476677829449415::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/energy-field/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4926612022064013418::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::8231433741824240370::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::9056188445720637310::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::6787012632503556298::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::5939425800532304189::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::3097768404835492606::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::2925173911356065008::1721019016::1721019024::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::1043236319941214185::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/energy-smack/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::1152728201412171891::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5241604437846482906::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::3405572880578721798::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7440825855365118012::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::7571830312994966020::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::1372562742004111754::1721019016::1721019024::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::8849599488664458668::1721019016::1721019024::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::202772974679710378::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/fire-ball/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::6934243935756749777::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::4400281767431422277::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::5722463171496961651::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/slash-circular/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::1149373331608342633::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::6654613433360398164::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8784855791921839015::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::3705208816273523202::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::3713328136774311067::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::3238290312688772745::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/slash-horizontal/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::5246951206172135094::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7574594762694330045::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::662743727507388463::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::957525047439957178::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::1929064685718964045::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/sprites/slash-upward/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::7567027516258310507::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::840106691932632138::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::5266977054433909682::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::2154838108393753229::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::6123646770164806639::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-FX/spritesheets/::1721019016
+electro-shock.png::CompressedTexture2D::9102982540482598829::1721019016::1721019024::1::::<><>::
+enemy-death.png::CompressedTexture2D::5465618779130834348::1721019016::1721019024::1::::<><>::
+energy-shield.png::CompressedTexture2D::22304493182655316::1721019016::1721019024::1::::<><>::
+energy-smack.png::CompressedTexture2D::1604720579028146841::1721019016::1721019024::1::::<><>::
+fire-ball.png::CompressedTexture2D::1588483285027571190::1721019016::1721019024::1::::<><>::
+slash-circular.png::CompressedTexture2D::1498249283461459765::1721019016::1721019024::1::::<><>::
+slash-horizontal.png::CompressedTexture2D::468658806880018468::1721019016::1721019024::1::::<><>::
+slash-upward.png::CompressedTexture2D::426046072878022986::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/hurt/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::6677114841531785316::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::4992324096688165470::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::7127540858037697653::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/idle/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::125553719509163500::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::4011758416373621777::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::7799152271020674552::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7212971660157898242::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/jump/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::2926052055690522593::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5340985932649131863::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8822926947813432727::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/run/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4947728533188965240::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7046402375339125389::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8972686151456948192::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::258098560218075869::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::8866917190717836931::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::3052614361767459208::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/tongue/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::2625444971334837069::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5326369459366100863::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::5155274686530167129::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::8341397849067506448::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::6046821948622491146::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/sprites/walk/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::3373779623964241772::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1903255126654829318::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::4800748493590529700::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::1035663890650490251::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::9093933725757094892::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::4025329070274796206::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-lizzard/spritesheets/::1721019016
+hurt.png::CompressedTexture2D::5496890272818624398::1721019016::1721019024::1::::<><>::
+idle.png::CompressedTexture2D::4904412448003491375::1721019016::1721019024::1::::<><>::
+jump.png::CompressedTexture2D::5411734661381185856::1721019016::1721019024::1::::<><>::
+run.png::CompressedTexture2D::5659872857707036532::1721019016::1721019024::1::::<><>::
+tongue.png::CompressedTexture2D::7726897633728907557::1721019016::1721019024::1::::<><>::
+walk.png::CompressedTexture2D::4091529153552203608::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/::1721019016
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/attack/::1721019016
+_0003_Layer-4.png::CompressedTexture2D::3201271069557219749::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/hurt/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::799997379392605209::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1563443791478883154::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::6323224259695954385::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/idle/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::3563455036090866722::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7192399720432830124::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::7926205420177674319::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::592425753967600108::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/jump/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::7682598755141712370::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5414931569357292798::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::3753687529184217122::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5819168576979494562::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::6137384339780116266::1721019016::1721019024::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::4085578920095384623::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/shoot/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::5112343488101670991::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::2783567122449203808::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::2348069340566935597::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::623474265243634612::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/spit/::1721019016
+_0000_Layer-2.png::CompressedTexture2D::234639022268983677::1721019016::1721019024::1::::<><>::
+_0001_Layer-1.png::CompressedTexture2D::8573057266843761698::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/spring/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::2486237178779426104::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::2627371327442345742::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::742290541197742070::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/sprites/walk/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4870912217755319158::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::5300782485469378722::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::6997342730861773483::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5216409926373161557::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/Grotto-escape-2-snake/spritesheets/::1721019016
+attack.png::CompressedTexture2D::7284157203449922558::1721019016::1721019024::1::::<><>::
+hurt.png::CompressedTexture2D::6056608040934654323::1721019016::1721019024::1::::<><>::
+idle.png::CompressedTexture2D::8422932681594031405::1721019016::1721019024::1::::<><>::
+jump.png::CompressedTexture2D::6959009086091997309::1721019016::1721019024::1::::<><>::
+shoot.png::CompressedTexture2D::5343991035135565741::1721019016::1721019024::1::::<><>::
+spit.png::CompressedTexture2D::8675442743826157922::1721019016::1721019024::1::::<><>::
+spring.png::CompressedTexture2D::1818103668169588372::1721019016::1721019024::1::::<><>::
+walk.png::CompressedTexture2D::1215324807165663772::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-bunny/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-bunny/Previews/::1721019016
+::res://Sprites/Placeholders/Characters/sunny-bunny/PSD/::1721019016
+::res://Sprites/Placeholders/Characters/sunny-bunny/Sprites/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-bunny/Sprites/idle/::1721019016
+_0000_Layer-1.png::CompressedTexture2D::4519639603031700810::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1071740926435424603::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::3391090402515881874::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::27671570646896987::1721019016::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-bunny/Sprites/jump/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::2417954039756790546::1721019016::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7497409784414125633::1721019016::1721019024::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::805078797990632016::1721019016::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::6282759283665946564::1721019016::1721019024::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::6373125564231850429::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-bunny/Sprites/run/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::5322558536788936234::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::8276508590354108313::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::3177376257019239499::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::6519388349770732229::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::638092379408878949::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::6815412173660593249::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-bunny/Spritesheets/::1721019017
+sunny-bunny-idle.png::CompressedTexture2D::5019537136781649745::1721019017::1721019025::1::::<><>::
+sunny-bunny-jump.png::CompressedTexture2D::1885323354870301544::1721019017::1721019025::1::::<><>::
+sunny-bunny-run.png::CompressedTexture2D::2001125238915750021::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-dragon/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-dragon/Previews/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-dragon/PSD/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-dragon/sprites/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::2146131170476441784::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7209240822395341693::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::2613117176961768273::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::4427187973465052705::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::8384597752002862726::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::1315624190519628342::1721019017::1721019025::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::5686303655830059472::1721019017::1721019025::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::345110950382900667::1721019017::1721019025::1::::<><>::
+_0008_Layer-9.png::CompressedTexture2D::3514121010153490078::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-dragon/spritesheets/::1721019017
+sunny-dragon-fly.png::CompressedTexture2D::1426428257217392489::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-froggy/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-froggy/Previews/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-froggy/PSD/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-froggy/Sprites/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-froggy/Sprites/jumping/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::4725516723933569535::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1866283174004721551::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::3283886821533080177::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::6253031121113229791::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::323370687437842490::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::2043246875382026450::1721019017::1721019025::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::254422639246110475::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-froggy/Sprites/taunting/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::1136306030588260374::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::1975712428420007139::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::1403399216349743593::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::6090878868671463224::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-froggy/Sprites/walking/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::6037045734872814678::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7823417627413704512::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8175959959089962537::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7284271825145561656::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::7655923487533634498::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::5047615198592771390::1721019017::1721019025::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::374850327703449345::1721019017::1721019025::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::5829289767481896078::1721019017::1721019025::1::::<><>::
+_0008_Layer-9.png::CompressedTexture2D::1334648679714245956::1721019017::1721019025::1::::<><>::
+_0009_Layer-10.png::CompressedTexture2D::7573263391989023567::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-froggy/Spritesheets/::1721019017
+sunny-froggy-jump.png::CompressedTexture2D::830841811917669714::1721019017::1721019024::1::::<><>::
+sunny-froggy-taunting.png::CompressedTexture2D::6100936352256973113::1721019017::1721019024::1::::<><>::
+sunny-froggy-walk.png::CompressedTexture2D::4590161484625914536::1721019017::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-mushroom/Previews/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-mushroom/PSD/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/::1721019017
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/breath-no-gas/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::8126181294682958238::1721019017::1721019024::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::4267572186906559203::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::7640827336666973718::1721019017::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7809744281780425557::1721019017::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/breatth-attack/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::5262596313586741418::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::7379359482843204928::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::8819319259089066038::1721019017::1721019024::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::7247039993277254539::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::1735972632553061318::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::4484544884324420196::1721019017::1721019025::1::::<><>::
+_0006_Layer-7.png::CompressedTexture2D::7793201432829027764::1721019017::1721019025::1::::<><>::
+_0007_Layer-8.png::CompressedTexture2D::3755170656801806304::1721019017::1721019025::1::::<><>::
+_0008_Layer-9.png::CompressedTexture2D::2012590216393558281::1721019017::1721019025::1::::<><>::
+_0009_Layer-10.png::CompressedTexture2D::4697427345814636522::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/gas-alone/::1721019017
+_0000_Layer-1.png::CompressedTexture2D::8940606383471273107::1721019017::1721019025::1::::<><>::
+_0001_Layer-2.png::CompressedTexture2D::8819801702692561799::1721019017::1721019025::1::::<><>::
+_0002_Layer-3.png::CompressedTexture2D::7799826344964313092::1721019017::1721019025::1::::<><>::
+_0003_Layer-4.png::CompressedTexture2D::5070102795146107343::1721019017::1721019025::1::::<><>::
+_0004_Layer-5.png::CompressedTexture2D::8529548628363431470::1721019017::1721019025::1::::<><>::
+_0005_Layer-6.png::CompressedTexture2D::7235453923309229441::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/jump/::1721019017
+_0000_1.png::CompressedTexture2D::8804218513551176539::1721019017::1721019025::1::::<><>::
+_0001_2.png::CompressedTexture2D::6200964340817237566::1721019017::1721019025::1::::<><>::
+_0002_3.png::CompressedTexture2D::1796217424499938607::1721019017::1721019025::1::::<><>::
+_0003_4.png::CompressedTexture2D::3219850971875627112::1721019017::1721019025::1::::<><>::
+_0004_5.png::CompressedTexture2D::8998564442787895983::1721019017::1721019025::1::::<><>::
+_0005_6.png::CompressedTexture2D::4028992214512694496::1721019017::1721019025::1::::<><>::
+_0006_7.png::CompressedTexture2D::6522634936502056549::1721019017::1721019025::1::::<><>::
+_0007_8.png::CompressedTexture2D::4946988799955791600::1721019017::1721019025::1::::<><>::
+_0008_9.png::CompressedTexture2D::2871881726069999729::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/sprites/walking/::1721019017
+0__0000_Layer-1.png::CompressedTexture2D::335016241189397854::1721019017::1721019025::1::::<><>::
+0__0001_Layer-2.png::CompressedTexture2D::1346351350661723176::1721019017::1721019025::1::::<><>::
+0__0002_Layer-3.png::CompressedTexture2D::2977557779012899640::1721019017::1721019025::1::::<><>::
+0__0003_Layer-4.png::CompressedTexture2D::9167534628638249534::1721019017::1721019025::1::::<><>::
+0__0004_Layer-5.png::CompressedTexture2D::1120385414353366035::1721019017::1721019025::1::::<><>::
+0__0005_Layer-6.png::CompressedTexture2D::1351531326435911068::1721019017::1721019025::1::::<><>::
+0__0006_Layer-7.png::CompressedTexture2D::7497070417464500984::1721019017::1721019025::1::::<><>::
+0__0007_Layer-8.png::CompressedTexture2D::8236334747195810227::1721019017::1721019025::1::::<><>::
+0__0008_Layer-9.png::CompressedTexture2D::6459377471592143940::1721019017::1721019025::1::::<><>::
+0__0009_Layer-10.png::CompressedTexture2D::9123194681327070490::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/sunny-mushroom/spritesheets/::1721019017
+gas-alone.png::CompressedTexture2D::4034595379339556355::1721019017::1721019025::1::::<><>::
+sunny-mushroom-breath-no-gas.png::CompressedTexture2D::9064688393797386410::1721019017::1721019025::1::::<><>::
+sunny-mushroom-breath.png::CompressedTexture2D::6645777058189112444::1721019017::1721019025::1::::<><>::
+sunny-mushroom-jump.png::CompressedTexture2D::5118868190369751265::1721019017::1721019025::1::::<><>::
+sunny-mushroom-walk.png::CompressedTexture2D::2399931777521301822::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/::1721019017
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bat/::1721019017
+bat-sheet.png::CompressedTexture2D::5787808356380204133::1721019017::1721019025::1::::<><>::
+bat.ase::PackedDataContainer::5823579524514859330::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bat/bat-fly/::1721019017
+bat-fly1.png::CompressedTexture2D::2947613725965850695::1721019017::1721019025::1::::<><>::
+bat-fly2.png::CompressedTexture2D::6724420004236969537::1721019017::1721019025::1::::<><>::
+bat-fly3.png::CompressedTexture2D::1998511220243489950::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bat/bat-hang/::1721019017
+bat-hang1.png::CompressedTexture2D::7243892472498796472::1721019017::1721019025::1::::<><>::
+bat-hang2.png::CompressedTexture2D::8509143992445311840::1721019017::1721019025::1::::<><>::
+bat-hang3.png::CompressedTexture2D::252919804056616033::1721019017::1721019025::1::::<><>::
+bat-hang4.png::CompressedTexture2D::5672020315212862604::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bear/::1721019017
+bear-sheet.png::CompressedTexture2D::3680194397662400449::1721019017::1721019025::1::::<><>::
+bear.ase::PackedDataContainer::1661826918884605641::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bear/walk/::1721019017
+bear-walk1.png::CompressedTexture2D::8326265997679557577::1721019017::1721019025::1::::<><>::
+bear-walk2.png::CompressedTexture2D::2822412270374918142::1721019017::1721019025::1::::<><>::
+bear-walk3.png::CompressedTexture2D::2525741329921596883::1721019017::1721019025::1::::<><>::
+bear-walk4.png::CompressedTexture2D::4135658789229047391::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bunny/::1721019017
+bunny-sheet.png::CompressedTexture2D::4042001745702826062::1721019017::1721019025::1::::<><>::
+bunny.ase::PackedDataContainer::5002568193569079359::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/bunny/sprites/::1721019017
+bunny1.png::CompressedTexture2D::2408483396871722233::1721019017::1721019025::1::::<><>::
+bunny2.png::CompressedTexture2D::9104843229097924145::1721019017::1721019025::1::::<><>::
+bunny3.png::CompressedTexture2D::917882012548158333::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/pig/::1721019017
+pig-sheet.png::CompressedTexture2D::1925507172503971864::1721019017::1721019024::1::::<><>::
+pig.ase::PackedDataContainer::2224294415905195931::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Characters/SunnyLand Enemies Pack/pig/sprites/::1721019017
+pig1.png::CompressedTexture2D::3250192605105365138::1721019017::1721019024::1::::<><>::
+pig2.png::CompressedTexture2D::4605564423318950974::1721019017::1721019024::1::::<><>::
+pig3.png::CompressedTexture2D::2645037869056744589::1721019017::1721019024::1::::<><>::
+pig4.png::CompressedTexture2D::2009209281309930451::1721019017::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/::1721019020
+::res://Sprites/Placeholders/Environments/Colorful Environment/::1721019019
+Preview.png::CompressedTexture2D::7501813953810385913::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Colorful Environment/PNG/::1721019019
+::res://Sprites/Placeholders/Environments/Colorful Environment/PNG/layers/::1721019019
+back-vegetation.png::CompressedTexture2D::9138585936380827495::1721019019::1721019024::1::::<><>::
+background-sky.png::CompressedTexture2D::8295046890518172429::1721019019::1721019024::1::::<><>::
+cloud.png::CompressedTexture2D::4654709144639695534::1721019019::1721019024::1::::<><>::
+tile-set.png::CompressedTexture2D::5818518962152209075::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Colorful Environment/PSD/::1721019019
+::res://Sprites/Placeholders/Environments/Day-Platformer/::1721019019
+Preview.png::CompressedTexture2D::4140869791600524157::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Day-Platformer/PNG/::1721019019
+clouds.png::CompressedTexture2D::7521232481844961193::1721019019::1721019024::1::::<><>::
+sky.png::CompressedTexture2D::2227705392825665984::1721019019::1721019024::1::::<><>::
+tileset.png::CompressedTexture2D::5704064476775168103::1721019019::1721019024::1::::<><>::
+trees.png::CompressedTexture2D::783295777351139001::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Day-Platformer/PSD/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/::1721019019
+eagle-sheet.png::CompressedTexture2D::8119259615290752981::1721019019::1721019024::1::::<><>::
+eagle.ase::PackedDataContainer::8434613787049966632::1721019019::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Previews/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/dive attack/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/dive attack/sprites/::1721019019
+attack1.png::CompressedTexture2D::4052068613263776544::1721019019::1721019024::1::::<><>::
+attack2.png::CompressedTexture2D::75068548726702630::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/fly/::1721019019
+fly1.png::CompressedTexture2D::238563340349756773::1721019019::1721019024::1::::<><>::
+fly2.png::CompressedTexture2D::5372910205368804859::1721019019::1721019024::1::::<><>::
+fly3.png::CompressedTexture2D::5061228588399564181::1721019019::1721019024::1::::<><>::
+fly4.png::CompressedTexture2D::5121967802165011892::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/hurt/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/eagle/Sprites/hurt/sprites/::1721019019
+hurt1.png::CompressedTexture2D::4615275318973053723::1721019019::1721019024::1::::<><>::
+hurt2.png::CompressedTexture2D::8058035967143918296::1721019019::1721019024::1::::<><>::
+hurt3.png::CompressedTexture2D::7892443545545926143::1721019019::1721019024::1::::<><>::
+hurt4.png::CompressedTexture2D::7185613761843225468::1721019019::1721019024::1::::<><>::
+hurt5.png::CompressedTexture2D::136319530024653314::1721019019::1721019024::1::::<><>::
+hurt6.png::CompressedTexture2D::1055647259432657018::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/mushroom-spring/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/mushroom-spring/big version/::1721019019
+mushroom-sheet.png::CompressedTexture2D::7928573683093197470::1721019019::1721019024::1::::<><>::
+mushroom.ase::PackedDataContainer::6334308674870980815::1721019019::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/mushroom-spring/big version/sprites/::1721019019
+mushroom1.png::CompressedTexture2D::1011709618719221627::1721019019::1721019024::1::::<><>::
+mushroom2.png::CompressedTexture2D::1116417133502710610::1721019019::1721019024::1::::<><>::
+mushroom3.png::CompressedTexture2D::6536753674794042556::1721019019::1721019024::1::::<><>::
+mushroom4.png::CompressedTexture2D::2371370969345336127::1721019019::1721019024::1::::<><>::
+mushroom5.png::CompressedTexture2D::3611440434243628737::1721019019::1721019024::1::::<><>::
+mushroom6.png::CompressedTexture2D::1584292711753762876::1721019019::1721019024::1::::<><>::
+mushroom7.png::CompressedTexture2D::239338441082763115::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/mushroom-spring/small version/::1721019019
+mushroom-small-sheet.png::CompressedTexture2D::6097348266036530849::1721019019::1721019024::1::::<><>::
+mushroom-small.ase::PackedDataContainer::3749328090879311308::1721019019::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/mushroom-spring/small version/sprites/::1721019019
+mushroom1.png::CompressedTexture2D::8464894811837877162::1721019019::1721019024::1::::<><>::
+mushroom2.png::CompressedTexture2D::2321655390044246176::1721019019::1721019024::1::::<><>::
+mushroom3.png::CompressedTexture2D::8009127490259318231::1721019019::1721019024::1::::<><>::
+mushroom4.png::CompressedTexture2D::578782139134575125::1721019019::1721019024::1::::<><>::
+mushroom5.png::CompressedTexture2D::6710438367734516318::1721019019::1721019024::1::::<><>::
+mushroom6.png::CompressedTexture2D::8244650650472228513::1721019019::1721019024::1::::<><>::
+mushroom7.png::CompressedTexture2D::3407318952574108011::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/ase/::1721019019
+ball.ase::PackedDataContainer::4567428375901224804::1721019019::1721019025::1::::<><>::
+piranha-plant-shoot.ase::PackedDataContainer::4098951334744367446::1721019019::1721019025::1::::<><>::
+piranha-plant.ase::PackedDataContainer::1075209405166295719::1721019019::1721019025::1::::<><>::
+piranha-plant.png::CompressedTexture2D::5432624557560649733::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/ball/::1721019019
+ball-sheet.png::CompressedTexture2D::953496837314660761::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/ball/ball sprites/::1721019019
+ball1.png::CompressedTexture2D::3736789926266852704::1721019019::1721019024::1::::<><>::
+ball2.png::CompressedTexture2D::4853305633311803730::1721019019::1721019024::1::::<><>::
+ball3.png::CompressedTexture2D::1176863397696812005::1721019019::1721019024::1::::<><>::
+ball4.png::CompressedTexture2D::5132780979550024973::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/hurt/::1721019019
+piranha-plant-hurt-sheet.png::CompressedTexture2D::8030714924901187695::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/hurt/sprites/::1721019019
+piranha-plant-hurt1.png::CompressedTexture2D::2904809086274019203::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt2.png::CompressedTexture2D::6939759911550862518::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt3.png::CompressedTexture2D::9008932620597972981::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt4.png::CompressedTexture2D::3347585117731152910::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt5.png::CompressedTexture2D::754824537430181741::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt6.png::CompressedTexture2D::230617145812740678::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt7.png::CompressedTexture2D::5821489585069211208::1721019019::1721019024::1::::<><>::
+piranha-plant-hurt8.png::CompressedTexture2D::863979706814776519::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/idle/::1721019019
+idle.png::CompressedTexture2D::6257215163472572688::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/idle/sprites/::1721019019
+idle-export1.png::CompressedTexture2D::2099574832300328111::1721019019::1721019024::1::::<><>::
+idle-export2.png::CompressedTexture2D::8505140921935823296::1721019019::1721019024::1::::<><>::
+idle-export3.png::CompressedTexture2D::3441683764204235434::1721019019::1721019024::1::::<><>::
+idle-export4.png::CompressedTexture2D::1144590838146303308::1721019019::1721019024::1::::<><>::
+idle-export5.png::CompressedTexture2D::8994656998318215616::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/shoot/::1721019019
+piranha-plant-shoot-sheet.png::CompressedTexture2D::8272593318525696605::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/piranha/shoot/sprites/::1721019019
+piranha-plant-shoot1.png::CompressedTexture2D::7604264665903548323::1721019019::1721019024::1::::<><>::
+piranha-plant-shoot2.png::CompressedTexture2D::1674044016322447350::1721019019::1721019024::1::::<><>::
+piranha-plant-shoot3.png::CompressedTexture2D::7921650211045948217::1721019019::1721019024::1::::<><>::
+piranha-plant-shoot4.png::CompressedTexture2D::6688229721515172963::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/::1721019019
+slug.ase::PackedDataContainer::540063164526434687::1721019019::1721019025::1::::<><>::
+slug.png::CompressedTexture2D::8962439207114978382::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/hurt/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/hurt/sprites/::1721019019
+hurt1.png::CompressedTexture2D::7448263837959622436::1721019019::1721019024::1::::<><>::
+hurt2.png::CompressedTexture2D::7471513989485617467::1721019019::1721019024::1::::<><>::
+hurt3.png::CompressedTexture2D::4083920829700868149::1721019019::1721019024::1::::<><>::
+hurt4.png::CompressedTexture2D::5533774594687753342::1721019019::1721019024::1::::<><>::
+hurt5.png::CompressedTexture2D::8584472973016973342::1721019019::1721019024::1::::<><>::
+hurt6.png::CompressedTexture2D::4889979719093885661::1721019019::1721019024::1::::<><>::
+hurt7.png::CompressedTexture2D::1982040330322682454::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/Poo Goo/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/Poo Goo/sprites/::1721019019
+poo-goo1.png::CompressedTexture2D::6615406216806877250::1721019019::1721019024::1::::<><>::
+poo-goo2.png::CompressedTexture2D::6286812195917468860::1721019019::1721019024::1::::<><>::
+poo-goo3.png::CompressedTexture2D::7904817720779061078::1721019019::1721019024::1::::<><>::
+poo-goo4.png::CompressedTexture2D::8611825730409345237::1721019019::1721019024::1::::<><>::
+poo-goo5.png::CompressedTexture2D::6967536417471420954::1721019019::1721019024::1::::<><>::
+poo-goo6.png::CompressedTexture2D::7922652453044273504::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/stunt/::1721019019
+stunt-sheet.png::CompressedTexture2D::7252545353101858259::1721019019::1721019024::1::::<><>::
+stunt.ase::PackedDataContainer::8017612437576668254::1721019019::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Enemies Add On Pack/Slug/stunt/sprites/::1721019019
+stunt1-sheet.png::CompressedTexture2D::3093604997290216629::1721019019::1721019024::1::::<><>::
+stunt1.png::CompressedTexture2D::2640915537415560228::1721019019::1721019024::1::::<><>::
+stunt2.png::CompressedTexture2D::6623788521053660393::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Expansion Pack/::1721019019
+Preview.png::CompressedTexture2D::5432017750745553565::1721019019::1721019024::1::::<><>::
+Props-sheet.png::CompressedTexture2D::2923865409887233075::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Expansion Pack/Aseprite/::1721019019
+Props.ase::PackedDataContainer::6025805188276767260::1721019019::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Expansion Pack/Sprites/::1721019019
+bridge.png::CompressedTexture2D::6974268501381139648::1721019019::1721019024::1::::<><>::
+log.png::CompressedTexture2D::5713149149656245394::1721019019::1721019024::1::::<><>::
+rock.png::CompressedTexture2D::1805475498918784867::1721019019::1721019024::1::::<><>::
+shroom_house.png::CompressedTexture2D::6192015159749859589::1721019019::1721019024::1::::<><>::
+stomp.png::CompressedTexture2D::5292690447152876481::1721019019::1721019024::1::::<><>::
+tower.png::CompressedTexture2D::8790138822040017736::1721019019::1721019024::1::::<><>::
+tree.png::CompressedTexture2D::3074832014410444519::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/::1721019020
+Preview.png::CompressedTexture2D::4957520672688184649::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/environment/::1721019019
+environment-preview.png::CompressedTexture2D::28864810551692784::1721019019::1721019024::1::::<><>::
+tileset.png::CompressedTexture2D::2151522894660888328::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/environment/Background Layers/::1721019019
+background.png::CompressedTexture2D::5576849170219694858::1721019019::1721019024::1::::<><>::
+middleground.png::CompressedTexture2D::709856608567561950::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/environment/props/::1721019019
+props-sheet.png::CompressedTexture2D::6438602980208031877::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/environment/props/sprites/::1721019019
+house.png::CompressedTexture2D::5411818568109956699::1721019019::1721019024::1::::<><>::
+mushroom-brown.png::CompressedTexture2D::6137896336608513134::1721019019::1721019024::1::::<><>::
+mushroom-red.png::CompressedTexture2D::3466573514953310059::1721019019::1721019024::1::::<><>::
+plant.png::CompressedTexture2D::3246131907191079291::1721019019::1721019024::1::::<><>::
+rock.png::CompressedTexture2D::9033176862234840775::1721019019::1721019024::1::::<><>::
+tree.png::CompressedTexture2D::156204202276656906::1721019019::1721019024::1::::<><>::
+vine.png::CompressedTexture2D::5444501485037729643::1721019019::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/enemies/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/enemies/bee/::1721019019
+bee-1.png::CompressedTexture2D::2113057355704684430::1721019019::1721019024::1::::<><>::
+bee-2.png::CompressedTexture2D::5728847705790828776::1721019019::1721019024::1::::<><>::
+bee-3.png::CompressedTexture2D::2964894026743527949::1721019019::1721019024::1::::<><>::
+bee-4.png::CompressedTexture2D::2869388138584968705::1721019019::1721019024::1::::<><>::
+bee-5.png::CompressedTexture2D::1976846070713620124::1721019019::1721019023::1::::<><>::
+bee-6.png::CompressedTexture2D::650761352366095367::1721019019::1721019023::1::::<><>::
+bee-7.png::CompressedTexture2D::7011912280961263051::1721019019::1721019023::1::::<><>::
+bee-8.png::CompressedTexture2D::2717034089785555691::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/enemies/piranha-plant/::1721019019
+piranha-plant-1.png::CompressedTexture2D::129969686262563489::1721019019::1721019023::1::::<><>::
+piranha-plant-2.png::CompressedTexture2D::7662142746371033142::1721019019::1721019023::1::::<><>::
+piranha-plant-3.png::CompressedTexture2D::5871850597113875099::1721019019::1721019023::1::::<><>::
+piranha-plant-4.png::CompressedTexture2D::318418489968439647::1721019019::1721019023::1::::<><>::
+piranha-plant-5.png::CompressedTexture2D::54312245213052318::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/enemies/piranha-plant-attack/::1721019019
+piranha-plant-attack-1.png::CompressedTexture2D::2645566514091067638::1721019019::1721019023::1::::<><>::
+piranha-plant-attack-2.png::CompressedTexture2D::6264065615232874828::1721019019::1721019023::1::::<><>::
+piranha-plant-attack-3.png::CompressedTexture2D::3307238348277738751::1721019019::1721019023::1::::<><>::
+piranha-plant-attack-4.png::CompressedTexture2D::5087418522093196212::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/enemies/slug/::1721019019
+slug-1.png::CompressedTexture2D::5972576246907481332::1721019019::1721019023::1::::<><>::
+slug-2.png::CompressedTexture2D::3064251449873363628::1721019019::1721019023::1::::<><>::
+slug-3.png::CompressedTexture2D::753817873649109343::1721019019::1721019023::1::::<><>::
+slug-4.png::CompressedTexture2D::1121732574617748238::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/::1721019019
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/carrot/::1721019019
+carrot-1.png::CompressedTexture2D::4588117408281938847::1721019019::1721019023::1::::<><>::
+carrot-2.png::CompressedTexture2D::6653311440432549957::1721019019::1721019023::1::::<><>::
+carrot-3.png::CompressedTexture2D::6892687849951235363::1721019019::1721019023::1::::<><>::
+carrot-4.png::CompressedTexture2D::6582792166767625047::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/chest/::1721019019
+chest-1.png::CompressedTexture2D::4269702903283731018::1721019019::1721019023::1::::<><>::
+chest-2.png::CompressedTexture2D::2214953250941824756::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/enemy-death/::1721019019
+enemy-death-1.png::CompressedTexture2D::2534865715134983029::1721019019::1721019023::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::8200894107412504794::1721019019::1721019023::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::4196354193485572595::1721019019::1721019023::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::8189120746472290823::1721019019::1721019023::1::::<><>::
+enemy-death-5.png::CompressedTexture2D::8392698187357873423::1721019019::1721019023::1::::<><>::
+enemy-death-6.png::CompressedTexture2D::7098905891647698252::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/hud/::1721019019
+hud-1.png::CompressedTexture2D::163383994848310826::1721019019::1721019023::1::::<><>::
+hud-2.png::CompressedTexture2D::3056818401434244011::1721019019::1721019023::1::::<><>::
+hud-3.png::CompressedTexture2D::5673432182858918923::1721019019::1721019023::1::::<><>::
+hud-4.png::CompressedTexture2D::1031184275275525629::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/misc/star/::1721019019
+star-1.png::CompressedTexture2D::7767729550383836422::1721019019::1721019023::1::::<><>::
+star-2.png::CompressedTexture2D::7406237841306955217::1721019019::1721019023::1::::<><>::
+star-3.png::CompressedTexture2D::5987910180684792609::1721019019::1721019023::1::::<><>::
+star-4.png::CompressedTexture2D::843887083999211299::1721019019::1721019023::1::::<><>::
+star-5.png::CompressedTexture2D::1079650696038369388::1721019019::1721019023::1::::<><>::
+star-6.png::CompressedTexture2D::4355644924012743685::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-climb/::1721019019
+player-climb-1.png::CompressedTexture2D::7323973616971300421::1721019019::1721019023::1::::<><>::
+player-climb-2.png::CompressedTexture2D::1940928025194294930::1721019019::1721019023::1::::<><>::
+player-climb-3.png::CompressedTexture2D::8460863612606882737::1721019019::1721019023::1::::<><>::
+player-climb-4.png::CompressedTexture2D::163822005922979937::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-duck/::1721019019
+player-duck-1.png::CompressedTexture2D::3370126118773924416::1721019019::1721019023::1::::<><>::
+player-duck-2.png::CompressedTexture2D::8591684435470995351::1721019019::1721019023::1::::<><>::
+player-duck-3.png::CompressedTexture2D::2770047079695166129::1721019019::1721019023::1::::<><>::
+player-duck-4.png::CompressedTexture2D::8616857076899468058::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-fall/::1721019019
+player-fall-1.png::CompressedTexture2D::3778793528282085321::1721019019::1721019023::1::::<><>::
+player-fall-2.png::CompressedTexture2D::674567310901935488::1721019019::1721019023::1::::<><>::
+player-fall-3.png::CompressedTexture2D::5960437109262337581::1721019019::1721019023::1::::<><>::
+player-fall-4.png::CompressedTexture2D::8053685808284294657::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-hurt/::1721019019
+player-hurt-1.png::CompressedTexture2D::1346180986024976783::1721019019::1721019023::1::::<><>::
+player-hurt-2.png::CompressedTexture2D::8835249129741141553::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-idle/::1721019020
+player-idle-1.png::CompressedTexture2D::1406443841179226551::1721019019::1721019023::1::::<><>::
+player-idle-2.png::CompressedTexture2D::8099197817568110506::1721019019::1721019023::1::::<><>::
+player-idle-3.png::CompressedTexture2D::5244440943684452626::1721019019::1721019023::1::::<><>::
+player-idle-4.png::CompressedTexture2D::5515104848474840882::1721019019::1721019023::1::::<><>::
+player-idle-5.png::CompressedTexture2D::1325994833635993198::1721019019::1721019023::1::::<><>::
+player-idle-6.png::CompressedTexture2D::952376551117264609::1721019019::1721019023::1::::<><>::
+player-idle-7.png::CompressedTexture2D::2280477367105115852::1721019020::1721019023::1::::<><>::
+player-idle-8.png::CompressedTexture2D::6329109625233317036::1721019020::1721019023::1::::<><>::
+player-idle-9.png::CompressedTexture2D::4598151842504942778::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-jump/::1721019020
+player-jump-1.png::CompressedTexture2D::2766565525575910057::1721019020::1721019023::1::::<><>::
+player-jump-2.png::CompressedTexture2D::7264882415237777110::1721019020::1721019023::1::::<><>::
+player-jump-3.png::CompressedTexture2D::2878727931028129566::1721019020::1721019023::1::::<><>::
+player-jump-4.png::CompressedTexture2D::8776306272524275107::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/sprites/player/player-skip/::1721019020
+player-skip-1.png::CompressedTexture2D::4992608756897775953::1721019020::1721019023::1::::<><>::
+player-skip-2.png::CompressedTexture2D::2854497610351607623::1721019020::1721019023::1::::<><>::
+player-skip-3.png::CompressedTexture2D::8717222063486122267::1721019020::1721019023::1::::<><>::
+player-skip-4.png::CompressedTexture2D::1160997352729770951::1721019020::1721019023::1::::<><>::
+player-skip-5.png::CompressedTexture2D::1008035907263322187::1721019020::1721019023::1::::<><>::
+player-skip-6.png::CompressedTexture2D::3516538708527565591::1721019020::1721019023::1::::<><>::
+player-skip-7.png::CompressedTexture2D::521075830386167300::1721019020::1721019023::1::::<><>::
+player-skip-8.png::CompressedTexture2D::5636322490954433346::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/spritesheets/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/spritesheets/enemies/::1721019020
+bee.png::CompressedTexture2D::3346402174352716577::1721019020::1721019023::1::::<><>::
+piranha-plant-attack.png::CompressedTexture2D::6290466535695807969::1721019020::1721019023::1::::<><>::
+piranha-plant.png::CompressedTexture2D::7795556312932123819::1721019020::1721019023::1::::<><>::
+slug.png::CompressedTexture2D::3298025616971379890::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/spritesheets/misc/::1721019020
+carrot.png::CompressedTexture2D::3015574151352837546::1721019020::1721019023::1::::<><>::
+chest.png::CompressedTexture2D::3643342171807249116::1721019020::1721019023::1::::<><>::
+enemy-death.png::CompressedTexture2D::1542407486650015428::1721019020::1721019023::1::::<><>::
+hud.png::CompressedTexture2D::8760600557575632594::1721019020::1721019023::1::::<><>::
+star.png::CompressedTexture2D::6849429688229666844::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PNG/spritesheets/player/::1721019020
+climb.png::CompressedTexture2D::799180612743905390::1721019020::1721019023::1::::<><>::
+duck.png::CompressedTexture2D::3434336942042087523::1721019020::1721019023::1::::<><>::
+fall.png::CompressedTexture2D::3344793286068932384::1721019020::1721019023::1::::<><>::
+hurt.png::CompressedTexture2D::1111047778869188431::1721019020::1721019023::1::::<><>::
+idle.png::CompressedTexture2D::2316117607271882780::1721019020::1721019023::1::::<><>::
+jump.png::CompressedTexture2D::6765064344738074113::1721019020::1721019023::1::::<><>::
+skip.png::CompressedTexture2D::5404185411273413945::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PREVIEW/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PREVIEW/enemies/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PREVIEW/misc/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PREVIEW/player/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PSD/enemies/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PSD/Environment/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PSD/misc/::1721019020
+::res://Sprites/Placeholders/Environments/Forest/Forest Pack/PSD/player/::1721019020
+::res://Sprites/Placeholders/Environments/Forest of Illusion/::1721019020
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Expansion Pack/::1721019020
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Expansion Pack/Aseprite/::1721019020
+Illusion-forest-a.ase::PackedDataContainer::4707762631098156526::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Expansion Pack/Layers/::1721019020
+back.png::CompressedTexture2D::1111868787551091218::1721019020::1721019023::1::::<><>::
+front.png::CompressedTexture2D::7333950943114762495::1721019020::1721019023::1::::<><>::
+middle.png::CompressedTexture2D::4093653038981800239::1721019020::1721019023::1::::<><>::
+tiles.png::CompressedTexture2D::8663466830479181741::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Expansion Pack/Previews/::1721019020
+Illusion-forest-a.png::CompressedTexture2D::1647899837157429240::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Pack/::1721019020
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Pack/Aseprite/::1721019020
+Illusion-forest.ase::PackedDataContainer::6491991216511510510::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Pack/Layers/::1721019020
+back.png::CompressedTexture2D::2538315520967014963::1721019020::1721019023::1::::<><>::
+middle.png::CompressedTexture2D::240493579477348072::1721019020::1721019023::1::::<><>::
+tiles.png::CompressedTexture2D::8416668694770576532::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest of Illusion/Forest of Illusion Pack/Previews/::1721019020
+Preview.png::CompressedTexture2D::5948616832891798546::1721019020::1721019023::1::::<><>::
+Previewx3.png::CompressedTexture2D::2856956917390286406::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest Road/::1721019020
+::res://Sprites/Placeholders/Environments/Forest Road/PNG/::1721019020
+back.png::CompressedTexture2D::6370085367540616294::1721019020::1721019023::1::::<><>::
+forest-road-preview.png::CompressedTexture2D::6400532862578474730::1721019020::1721019023::1::::<><>::
+front.png::CompressedTexture2D::4827589813472984189::1721019020::1721019023::1::::<><>::
+middle.png::CompressedTexture2D::8203430229102770714::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Forest Road/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Fort of Illusion/::1721019020
+::res://Sprites/Placeholders/Environments/Fort of Illusion/Fort of Illusion Files/::1721019020
+Fort-of-Illusion.ase::PackedDataContainer::3737541819933574849::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Fort of Illusion/Fort of Illusion Files/Layers/::1721019020
+all-props.png::CompressedTexture2D::3399921542065786488::1721019020::1721019023::1::::<><>::
+back.png::CompressedTexture2D::2975173390958977569::1721019020::1721019023::1::::<><>::
+front.png::CompressedTexture2D::3848771502673070268::1721019020::1721019023::1::::<><>::
+mountains.png::CompressedTexture2D::7942117307192262777::1721019020::1721019023::1::::<><>::
+tileset.png::CompressedTexture2D::4448235163223480013::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Fort of Illusion/Fort of Illusion Files/Layers/Props/::1721019020
+banner.png::CompressedTexture2D::6372090487218774219::1721019020::1721019023::1::::<><>::
+closed-door.png::CompressedTexture2D::1510418279809401996::1721019020::1721019023::1::::<><>::
+door.png::CompressedTexture2D::5416794837011827888::1721019020::1721019023::1::::<><>::
+flag.png::CompressedTexture2D::550810332151856434::1721019020::1721019023::1::::<><>::
+window.png::CompressedTexture2D::2642925242398696019::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Fort of Illusion/Fort of Illusion Files/Previews/::1721019020
+Fort-of-Illusion.png::CompressedTexture2D::1734813760985361458::1721019020::1721019023::1::::<><>::
+Fort-of-Illusionx3.png::CompressedTexture2D::1498477630790114068::1721019020::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Environments/Jungle/::1721019020
+preview.png::CompressedTexture2D::6514533567696030284::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Jungle/Aseprite/::1721019020
+jungle.ase::PackedDataContainer::6528277505978752850::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Jungle/Layers/::1721019020
+back.png::CompressedTexture2D::5267794065690794334::1721019020::1721019023::1::::<><>::
+middle-a.png::CompressedTexture2D::9089529553105801474::1721019020::1721019023::1::::<><>::
+middle-b.png::CompressedTexture2D::6904319313478380679::1721019020::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::3553191040207708867::1721019020::1721019022::1::::<><>::
+tileset.png::CompressedTexture2D::8886385543041747978::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Lava Place/::1721019020
+Preview.png::CompressedTexture2D::8094072787560105826::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Lava Place/PNG/::1721019020
+background.png::CompressedTexture2D::7391726203489112759::1721019020::1721019022::1::::<><>::
+lava-tile.png::CompressedTexture2D::6726924221447590043::1721019020::1721019022::1::::<><>::
+middle-rocks.png::CompressedTexture2D::6322813015340155073::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Lava Place/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Magical Road/::1721019020
+::res://Sprites/Placeholders/Environments/Magical Road/aseprite/::1721019020
+Environment.ase::PackedDataContainer::2189772591969011680::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Magical Road/Layers/::1721019020
+back.png::CompressedTexture2D::5646506390064550331::1721019020::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::5030618972762839333::1721019020::1721019022::1::::<><>::
+tileset.png::CompressedTexture2D::7825216423085258057::1721019020::1721019022::1::::<><>::
+tree.png::CompressedTexture2D::4205075553448158260::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Magical Road/Previews/::1721019020
+env-preview-big.png::CompressedTexture2D::2646833794558184603::1721019020::1721019022::1::::<><>::
+env-preview.png::CompressedTexture2D::7144984507235736811::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Mist Forest/::1721019020
+::res://Sprites/Placeholders/Environments/Mist Forest/layers/::1721019020
+mist-forest-background-back-trees.png::CompressedTexture2D::9121516903752804174::1721019020::1721019022::1::::<><>::
+mist-forest-background-back.png::CompressedTexture2D::5546326350827559696::1721019020::1721019022::1::::<><>::
+mist-forest-background-rocks.png::CompressedTexture2D::8932055938262405276::1721019020::1721019022::1::::<><>::
+mist-forest-background-tiles.png::CompressedTexture2D::7324148426052197284::1721019020::1721019022::1::::<><>::
+mist-forest-background-tree.png::CompressedTexture2D::8969812089547000958::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Mist Forest/Previews/::1721019020
+mist-forest-background-preview.png::CompressedTexture2D::3630206860106485086::1721019020::1721019022::1::::<><>::
+mist-forest-background-previewx2.png::CompressedTexture2D::7222158975238306211::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Modular-tileset/::1721019020
+Preview.png::CompressedTexture2D::8537211063717911267::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Modular-tileset/layers/::1721019020
+modular-tileset-sky.png::CompressedTexture2D::653800217957350586::1721019020::1721019022::1::::<><>::
+modular-tileset.png::CompressedTexture2D::2679182472966116833::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Modular-tileset/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Rocky Tileset/::1721019020
+Preview.png::CompressedTexture2D::8631469526129122925::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Rocky Tileset/PNG/::1721019020
+::res://Sprites/Placeholders/Environments/Rocky Tileset/PNG/layers/::1721019020
+rocky-tileset-2.png::CompressedTexture2D::2475682768678562466::1721019020::1721019022::1::::<><>::
+rocky-tileset-background.png::CompressedTexture2D::5238718902058413620::1721019020::1721019022::1::::<><>::
+rocky-tileset.png::CompressedTexture2D::2184347300977461654::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Rocky Tileset/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Shadow Forest/::1721019020
+::res://Sprites/Placeholders/Environments/Shadow Forest/aseprite/::1721019020
+Environment.ase::PackedDataContainer::4077040272642396018::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Shadow Forest/Layers/::1721019020
+background.png::CompressedTexture2D::5876587957566996162::1721019020::1721019022::1::::<><>::
+front.png::CompressedTexture2D::6547081312088889393::1721019020::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::3996592764971800128::1721019020::1721019022::1::::<><>::
+tileset.png::CompressedTexture2D::898407250486873251::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Shadow Forest/Layers/front props/::1721019020
+branch1.png::CompressedTexture2D::7560433899229250703::1721019020::1721019022::1::::<><>::
+branch2.png::CompressedTexture2D::2343828872916465631::1721019020::1721019022::1::::<><>::
+leaves.png::CompressedTexture2D::3189476979362922246::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Shadow Forest/Previews/::1721019020
+ShadowForest.png::CompressedTexture2D::5378452961478664702::1721019020::1721019022::1::::<><>::
+ShadowForesx3t.png::CompressedTexture2D::6814074925175261716::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Ships Graveyard/::1721019020
+Preview.png::CompressedTexture2D::5416352827866670400::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Ships Graveyard/PNG/::1721019020
+::res://Sprites/Placeholders/Environments/Ships Graveyard/PNG/layers/::1721019020
+back-sand.png::CompressedTexture2D::4564166564625360808::1721019020::1721019022::1::::<><>::
+boat-far.png::CompressedTexture2D::7014325509786408121::1721019020::1721019022::1::::<><>::
+boat-front.png::CompressedTexture2D::4471749108254068955::1721019020::1721019022::1::::<><>::
+boat-middle.png::CompressedTexture2D::6531295728466400159::1721019020::1721019022::1::::<><>::
+front.png::CompressedTexture2D::8976446249939586836::1721019020::1721019022::1::::<><>::
+middle-sand.png::CompressedTexture2D::339293058095825461::1721019020::1721019022::1::::<><>::
+water.png::CompressedTexture2D::5545345882119476982::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Ships Graveyard/PNG/mockup/::1721019020
+back.png::CompressedTexture2D::35572564137342169::1721019020::1721019022::1::::<><>::
+background.png::CompressedTexture2D::892873213122124139::1721019020::1721019022::1::::<><>::
+front.png::CompressedTexture2D::4179330106214196213::1721019020::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::6423120040602590519::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Ships Graveyard/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Sunny Rocky/::1721019020
+Preview.png::CompressedTexture2D::7830330487249093970::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Sunny Rocky/PNG/::1721019020
+foreground.png::CompressedTexture2D::8052636115065361765::1721019020::1721019022::1::::<><>::
+sunny-mountains-far-back.png::CompressedTexture2D::4580647327351656660::1721019020::1721019022::1::::<><>::
+sunny-mountains-hills.png::CompressedTexture2D::7762359493564573651::1721019020::1721019022::1::::<><>::
+sunny-mountains-sky.png::CompressedTexture2D::4170746896972870818::1721019020::1721019022::1::::<><>::
+sunny-mountains-trees.png::CompressedTexture2D::3812575161847347113::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Sunny Rocky/PSD/::1721019020
+::res://Sprites/Placeholders/Environments/Tall Forest/::1721019020
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Expansion pack/::1721019020
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Expansion pack/Aseprite/::1721019020
+forest.ase::PackedDataContainer::3017131182308442961::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Expansion pack/Layers/::1721019020
+tileset.png::CompressedTexture2D::8317235390726461822::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Expansion pack/Previews/::1721019020
+tileset-preview.png::CompressedTexture2D::1550571080650423309::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/::1721019020
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Aseprite/::1721019020
+forest.ase::PackedDataContainer::8774664910934635609::1721019020::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Layers/::1721019020
+back.png::CompressedTexture2D::6368752424011557046::1721019020::1721019022::1::::<><>::
+far.png::CompressedTexture2D::831997676950872663::1721019020::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::3506521454003244498::1721019020::1721019022::1::::<><>::
+tileset.png::CompressedTexture2D::6708161598319194372::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Layers/Props/::1721019020
+Props-sheet.png::CompressedTexture2D::510626695938979917::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Layers/Props/Sprites/::1721019020
+moss-1.png::CompressedTexture2D::878473041724661462::1721019020::1721019022::1::::<><>::
+moss-2.png::CompressedTexture2D::4941680661598000038::1721019020::1721019022::1::::<><>::
+Plant.png::CompressedTexture2D::8512541219355238861::1721019020::1721019022::1::::<><>::
+Rock.png::CompressedTexture2D::4386163093525244071::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Tall Forest/Tall Forest Pack/Previews/::1721019020
+forest.png::CompressedTexture2D::5263358906330813925::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Treasure Hoard/::1721019020
+Preview.png::CompressedTexture2D::2308393128682826030::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Treasure Hoard/PNG/::1721019020
+back-gold.png::CompressedTexture2D::5785190659683248388::1721019020::1721019022::1::::<><>::
+background.png::CompressedTexture2D::6895061290645004510::1721019020::1721019022::1::::<><>::
+gold.png::CompressedTexture2D::2486767587118191118::1721019020::1721019022::1::::<><>::
+ground.png::CompressedTexture2D::1537121393436725363::1721019020::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Environments/Treasure Hoard/PSD/::1721019020
+::res://Sprites/Placeholders/Packs/::1721019018
+::res://Sprites/Placeholders/Packs/Sunnyland/::1721019018
+::res://Sprites/Placeholders/Packs/Sunnyland/Aseprite/::1721019017
+player.ase::PackedDataContainer::1588765262380103313::1721019017::1721019025::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/environment/::1721019017
+tileset.png::CompressedTexture2D::1324141018869475805::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/environment/Background/::1721019017
+back.png::CompressedTexture2D::6047520085502671705::1721019017::1721019022::1::::<><>::
+middle.png::CompressedTexture2D::7193057513670846079::1721019017::1721019022::1::::<><>::
+props.png::CompressedTexture2D::2100525169709965775::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/environment/Props/::1721019017
+big-crate.png::CompressedTexture2D::5418474509862106779::1721019017::1721019022::1::::<><>::
+block-big.png::CompressedTexture2D::4436080878268123828::1721019017::1721019022::1::::<><>::
+block.png::CompressedTexture2D::6919159083557780439::1721019017::1721019022::1::::<><>::
+bush.png::CompressedTexture2D::7470116457732827945::1721019017::1721019022::1::::<><>::
+crank-down.png::CompressedTexture2D::5221812360682391656::1721019017::1721019022::1::::<><>::
+crank-up.png::CompressedTexture2D::6837844111363392083::1721019017::1721019022::1::::<><>::
+crate.png::CompressedTexture2D::6602685678134502404::1721019017::1721019023::1::::<><>::
+door-opened.png::CompressedTexture2D::8619955253472535047::1721019017::1721019023::1::::<><>::
+door.png::CompressedTexture2D::7399579761512993680::1721019017::1721019023::1::::<><>::
+face-block.png::CompressedTexture2D::6740233293888402587::1721019017::1721019023::1::::<><>::
+house.png::CompressedTexture2D::8466021683373090391::1721019017::1721019023::1::::<><>::
+palm.png::CompressedTexture2D::6257621730909850803::1721019017::1721019023::1::::<><>::
+pine.png::CompressedTexture2D::8715790788181268038::1721019017::1721019023::1::::<><>::
+plant-house.png::CompressedTexture2D::478874337882989372::1721019017::1721019023::1::::<><>::
+platform-long.png::CompressedTexture2D::5512954047859074308::1721019017::1721019022::1::::<><>::
+rock-1.png::CompressedTexture2D::3984755861714007295::1721019017::1721019022::1::::<><>::
+rock-2.png::CompressedTexture2D::1614817641276923716::1721019017::1721019022::1::::<><>::
+rock.png::CompressedTexture2D::3360156121189816441::1721019017::1721019022::1::::<><>::
+shrooms.png::CompressedTexture2D::6288629874236580345::1721019017::1721019022::1::::<><>::
+sign.png::CompressedTexture2D::1867446805198903597::1721019017::1721019022::1::::<><>::
+skulls.png::CompressedTexture2D::7720579179275553424::1721019017::1721019022::1::::<><>::
+small-platform.png::CompressedTexture2D::2248395018265446064::1721019017::1721019022::1::::<><>::
+spike-skull.png::CompressedTexture2D::2404048226132726237::1721019017::1721019022::1::::<><>::
+spikes-top.png::CompressedTexture2D::1916393588089778470::1721019017::1721019022::1::::<><>::
+spikes.png::CompressedTexture2D::2747821033623114366::1721019017::1721019022::1::::<><>::
+straw-house.png::CompressedTexture2D::3427528070786907687::1721019017::1721019022::1::::<><>::
+tree-house.png::CompressedTexture2D::5433443229330245253::1721019017::1721019022::1::::<><>::
+tree.png::CompressedTexture2D::5728725926789895866::1721019017::1721019022::1::::<><>::
+wooden-house.png::CompressedTexture2D::6450193343576280947::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/::1721019017
+Environment-Preview.png::CompressedTexture2D::4883491037754132259::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/eagle/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/frog/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/FX/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/items/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/opossum/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/Previews/player/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/environment/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/MISC/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/eagle/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/frog/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/FX/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/items/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/opossum/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/PSD/sprites/player/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/cherry/::1721019017
+cherry-1.png::CompressedTexture2D::6738793758252035205::1721019017::1721019022::1::::<><>::
+cherry-2.png::CompressedTexture2D::2479232182989006370::1721019017::1721019022::1::::<><>::
+cherry-3.png::CompressedTexture2D::8653876777434673623::1721019017::1721019022::1::::<><>::
+cherry-4.png::CompressedTexture2D::8193048515430593542::1721019017::1721019022::1::::<><>::
+cherry-5.png::CompressedTexture2D::8586243527815964819::1721019017::1721019022::1::::<><>::
+cherry-6.png::CompressedTexture2D::8434136041225777::1721019017::1721019022::1::::<><>::
+cherry-7.png::CompressedTexture2D::1059931338189171485::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/eagle/::1721019017
+eagle-attack-1.png::CompressedTexture2D::9049260726336256259::1721019017::1721019022::1::::<><>::
+eagle-attack-2.png::CompressedTexture2D::1396993521210532493::1721019017::1721019022::1::::<><>::
+eagle-attack-3.png::CompressedTexture2D::4108233024694647098::1721019017::1721019022::1::::<><>::
+eagle-attack-4.png::CompressedTexture2D::2745579400949434460::1721019017::1721019022::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/enemy-death/::1721019017
+enemy-death-1.png::CompressedTexture2D::1541901660939112654::1721019017::1721019022::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::4056809889261833571::1721019017::1721019022::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::5663586661016057907::1721019017::1721019023::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::1725243009082140007::1721019017::1721019023::1::::<><>::
+enemy-death-5.png::CompressedTexture2D::5146704068355618961::1721019017::1721019023::1::::<><>::
+enemy-death-6.png::CompressedTexture2D::3999201251038842625::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/frog/::1721019017
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/frog/idle/::1721019017
+frog-idle-1.png::CompressedTexture2D::2804649232101278160::1721019017::1721019023::1::::<><>::
+frog-idle-2.png::CompressedTexture2D::9196636184110682183::1721019017::1721019023::1::::<><>::
+frog-idle-3.png::CompressedTexture2D::2968114322712162481::1721019017::1721019023::1::::<><>::
+frog-idle-4.png::CompressedTexture2D::8374382099440470789::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/frog/jump/::1721019017
+frog-jump-1.png::CompressedTexture2D::2579002912109736312::1721019017::1721019023::1::::<><>::
+frog-jump-2.png::CompressedTexture2D::5055281311998106113::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/gem/::1721019017
+gem-1.png::CompressedTexture2D::5167403677407163160::1721019017::1721019023::1::::<><>::
+gem-2.png::CompressedTexture2D::2066005072935319634::1721019017::1721019023::1::::<><>::
+gem-3.png::CompressedTexture2D::849117232769261174::1721019017::1721019023::1::::<><>::
+gem-4.png::CompressedTexture2D::6507029804246046374::1721019017::1721019023::1::::<><>::
+gem-5.png::CompressedTexture2D::2717728745150945951::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/item-feedback/::1721019017
+item-feedback-1.png::CompressedTexture2D::2791137751179841658::1721019017::1721019023::1::::<><>::
+item-feedback-2.png::CompressedTexture2D::5745418221577326590::1721019017::1721019023::1::::<><>::
+item-feedback-3.png::CompressedTexture2D::1772966831148484576::1721019017::1721019023::1::::<><>::
+item-feedback-4.png::CompressedTexture2D::4244510589964911186::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/opossum/::1721019017
+opossum-1.png::CompressedTexture2D::5027070369069326716::1721019017::1721019023::1::::<><>::
+opossum-2.png::CompressedTexture2D::5691637695493672454::1721019017::1721019023::1::::<><>::
+opossum-3.png::CompressedTexture2D::3401670733015521829::1721019017::1721019023::1::::<><>::
+opossum-4.png::CompressedTexture2D::4905569837950658502::1721019017::1721019023::1::::<><>::
+opossum-5.png::CompressedTexture2D::8310040977815831047::1721019017::1721019023::1::::<><>::
+opossum-6.png::CompressedTexture2D::2233057077106005770::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/::1721019018
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/climb/::1721019017
+player-climb-1.png::CompressedTexture2D::5578580641886867703::1721019017::1721019023::1::::<><>::
+player-climb-2.png::CompressedTexture2D::7692777604563349354::1721019017::1721019023::1::::<><>::
+player-climb-3.png::CompressedTexture2D::5309443351607817100::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/crouch/::1721019017
+player-crouch-1.png::CompressedTexture2D::1308099803513523881::1721019017::1721019023::1::::<><>::
+player-crouch-2.png::CompressedTexture2D::5715907078725386553::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/hurt/::1721019017
+player-hurt-1.png::CompressedTexture2D::7168757985904493779::1721019017::1721019023::1::::<><>::
+player-hurt-2.png::CompressedTexture2D::4706921141942800091::1721019017::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/idle/::1721019018
+player-idle-1.png::CompressedTexture2D::2881289761414844378::1721019018::1721019023::1::::<><>::
+player-idle-2.png::CompressedTexture2D::7187505162627435162::1721019018::1721019023::1::::<><>::
+player-idle-3.png::CompressedTexture2D::8606220991172418219::1721019018::1721019023::1::::<><>::
+player-idle-4.png::CompressedTexture2D::8378169952070490712::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/jump/::1721019018
+player-jump-1.png::CompressedTexture2D::5650139498179223289::1721019018::1721019023::1::::<><>::
+player-jump-2.png::CompressedTexture2D::3178722655963395018::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/sprites/player/run/::1721019018
+player-run-1.png::CompressedTexture2D::2956434622916363967::1721019018::1721019023::1::::<><>::
+player-run-2.png::CompressedTexture2D::3266054615753582778::1721019018::1721019023::1::::<><>::
+player-run-3.png::CompressedTexture2D::2637937896311317492::1721019018::1721019023::1::::<><>::
+player-run-4.png::CompressedTexture2D::5955153409593861249::1721019018::1721019023::1::::<><>::
+player-run-5.png::CompressedTexture2D::1391444241123300363::1721019018::1721019023::1::::<><>::
+player-run-6.png::CompressedTexture2D::384052215938660255::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Sunnyland/spritesheets/::1721019018
+cherry.png::CompressedTexture2D::846965496373491794::1721019018::1721019023::1::::<><>::
+eagle-attack.png::CompressedTexture2D::5007856662418316259::1721019018::1721019023::1::::<><>::
+enemy-deadth.png::CompressedTexture2D::2372314996295787656::1721019018::1721019023::1::::<><>::
+frog-idle.png::CompressedTexture2D::5538122847680829156::1721019018::1721019023::1::::<><>::
+frog-jump.png::CompressedTexture2D::9103146773574441930::1721019018::1721019023::1::::<><>::
+gem.png::CompressedTexture2D::3592658600829483597::1721019018::1721019023::1::::<><>::
+item-feedback.png::CompressedTexture2D::1462527002503591007::1721019018::1721019023::1::::<><>::
+oposum.png::CompressedTexture2D::6801361190459281176::1721019018::1721019023::1::::<><>::
+player.png::CompressedTexture2D::4112785412575551329::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/::1721019018
+Preview.png::CompressedTexture2D::6074665082753110519::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/ENVIRONMENT/::1721019018
+tileset.png::CompressedTexture2D::8845016366373207952::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/ENVIRONMENT/Background/::1721019018
+mid-layer-a.png::CompressedTexture2D::132323836233569697::1721019018::1721019023::1::::<><>::
+mid-layer-b.png::CompressedTexture2D::3120100195052451134::1721019018::1721019023::1::::<><>::
+mountains.png::CompressedTexture2D::2701844064798099219::1721019018::1721019023::1::::<><>::
+sky.png::CompressedTexture2D::3913903948652239536::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/ENVIRONMENT/Props/::1721019018
+prop-sheet.png::CompressedTexture2D::367610746257868088::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/ENVIRONMENT/Props/Sprites/::1721019018
+branche-left.png::CompressedTexture2D::3342936595327737412::1721019018::1721019023::1::::<><>::
+branche-right.png::CompressedTexture2D::1909597770507019778::1721019018::1721019023::1::::<><>::
+fence-snow.png::CompressedTexture2D::4547155444373232517::1721019018::1721019023::1::::<><>::
+fence.png::CompressedTexture2D::1273914442932303687::1721019018::1721019023::1::::<><>::
+house.png::CompressedTexture2D::4514378125602052411::1721019018::1721019023::1::::<><>::
+pine-snow.png::CompressedTexture2D::594457487520711732::1721019018::1721019023::1::::<><>::
+pine.png::CompressedTexture2D::1820048432860974265::1721019018::1721019023::1::::<><>::
+tall-tree.png::CompressedTexture2D::4978492698184687125::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/ENVIRONMENTS/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/MISC/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/SPRITES/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/SPRITES/enemies/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/SPRITES/misc/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/PSD/SPRITES/player/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/fox/::1721019018
+fox-sheet.png::CompressedTexture2D::5771857480879718079::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/fox/Sprites/::1721019018
+fox-1.png::CompressedTexture2D::2111084756696201100::1721019018::1721019023::1::::<><>::
+fox-2.png::CompressedTexture2D::463074302923038452::1721019018::1721019023::1::::<><>::
+fox-3.png::CompressedTexture2D::2177263468918972664::1721019018::1721019023::1::::<><>::
+fox-4.png::CompressedTexture2D::519738383854070041::1721019018::1721019023::1::::<><>::
+fox-5.png::CompressedTexture2D::6249157328879595988::1721019018::1721019023::1::::<><>::
+fox-6.png::CompressedTexture2D::4997285399386531247::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/owl/::1721019018
+owl-sheet.png::CompressedTexture2D::3006074041969302516::1721019018::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/owl/Sprites/::1721019018
+owl-1.png::CompressedTexture2D::4058905186605081937::1721019018::1721019023::1::::<><>::
+owl-2.png::CompressedTexture2D::6692999579090718637::1721019018::1721019023::1::::<><>::
+owl-3.png::CompressedTexture2D::8074472485104304030::1721019018::1721019023::1::::<><>::
+owl-4.png::CompressedTexture2D::2194403048514475174::1721019018::1721019023::1::::<><>::
+owl-5.png::CompressedTexture2D::6440186794400753599::1721019018::1721019024::1::::<><>::
+owl-6.png::CompressedTexture2D::3470896900634015290::1721019018::1721019023::1::::<><>::
+owl-7.png::CompressedTexture2D::3368038804084317625::1721019018::1721019024::1::::<><>::
+owl-8.png::CompressedTexture2D::5059719306969151851::1721019018::1721019024::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/yeti/::1721019018
+yeti-preview.png::CompressedTexture2D::7587806054943447754::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/enemies/yeti/Sprites/::1721019018
+yeti-1.png::CompressedTexture2D::1629450328895155930::1721019018::1721019024::1::::<><>::
+yeti-2.png::CompressedTexture2D::3698485814073278767::1721019018::1721019024::1::::<><>::
+yeti-3.png::CompressedTexture2D::7819164130325044254::1721019018::1721019024::1::::<><>::
+yeti-4.png::CompressedTexture2D::7651831279316254049::1721019018::1721019024::1::::<><>::
+yeti-5.png::CompressedTexture2D::3331049881495538052::1721019018::1721019024::1::::<><>::
+yeti-6.png::CompressedTexture2D::5167782667657006594::1721019018::1721019024::1::::<><>::
+yeti-7.png::CompressedTexture2D::1073661489671154361::1721019018::1721019023::1::::<><>::
+yeti-8.png::CompressedTexture2D::803866329883590308::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/enemy-death/::1721019018
+enemy-death-sheet.png::CompressedTexture2D::5201804068767499625::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/enemy-death/Sprites/::1721019018
+enemy-death-1.png::CompressedTexture2D::879499737271180962::1721019018::1721019023::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::3706602680037237050::1721019018::1721019023::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::252054592093181615::1721019018::1721019023::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::5114561248577441068::1721019018::1721019023::1::::<><>::
+enemy-death-5.png::CompressedTexture2D::3264410465152989078::1721019018::1721019023::1::::<><>::
+enemy-death-6.png::CompressedTexture2D::5338470969368195351::1721019018::1721019023::1::::<><>::
+enemy-death-7.png::CompressedTexture2D::8727151352411395190::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/fireball/::1721019018
+fireball-preview.png::CompressedTexture2D::5296657293634069824::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/fireball/Sprites/::1721019018
+fireball-1.png::CompressedTexture2D::6956303602995352806::1721019018::1721019023::1::::<><>::
+fireball-2.png::CompressedTexture2D::6421078513253580708::1721019018::1721019023::1::::<><>::
+fireball-3.png::CompressedTexture2D::6710012612106983909::1721019018::1721019023::1::::<><>::
+fireball-4.png::CompressedTexture2D::2484724309444271440::1721019018::1721019023::1::::<><>::
+fireball-5.png::CompressedTexture2D::8951764096105179718::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/fireball-hit/::1721019018
+fireball-hit-preview.png::CompressedTexture2D::5081188661738735283::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/misc/fireball-hit/Sprites/::1721019018
+fireball-hit-1.png::CompressedTexture2D::6050348834571725556::1721019018::1721019023::1::::<><>::
+fireball-hit-2.png::CompressedTexture2D::6075581957111098215::1721019018::1721019023::1::::<><>::
+fireball-hit-3.png::CompressedTexture2D::9022228078846231786::1721019018::1721019023::1::::<><>::
+fireball-hit-4.png::CompressedTexture2D::5942263938460361240::1721019018::1721019023::1::::<><>::
+fireball-hit-5.png::CompressedTexture2D::1976624024830883649::1721019018::1721019023::1::::<><>::
+fireball-hit-6.png::CompressedTexture2D::8484564349391068357::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/::1721019018
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/climb/::1721019018
+climb-sheet.png::CompressedTexture2D::3841828949681222949::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/climb/Sprites/::1721019018
+climb-1.png::CompressedTexture2D::6034000698658326368::1721019018::1721019023::1::::<><>::
+climb-2.png::CompressedTexture2D::6472237558048076372::1721019018::1721019023::1::::<><>::
+climb-3.png::CompressedTexture2D::6172692440761450689::1721019018::1721019023::1::::<><>::
+climb-4.png::CompressedTexture2D::7118019600481681188::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/crouch/::1721019018
+crouch-preview.png::CompressedTexture2D::8515951508437574268::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/crouch/Sprites/::1721019018
+crouch-1.png::CompressedTexture2D::4148642450526021672::1721019018::1721019023::1::::<><>::
+crouch-2.png::CompressedTexture2D::3354006395699779131::1721019018::1721019023::1::::<><>::
+crouch-3.png::CompressedTexture2D::3704230277261585836::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/crouch-shot/::1721019018
+crouch-shot-sheet.png::CompressedTexture2D::2023858433237622177::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/crouch-shot/Sprites/::1721019018
+crouch-shot-1.png::CompressedTexture2D::7698964887208590980::1721019018::1721019023::1::::<><>::
+crouch-shot-2.png::CompressedTexture2D::2790282089245598795::1721019018::1721019023::1::::<><>::
+crouch-shot-3.png::CompressedTexture2D::4479745228867529756::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/hurt/::1721019018
+hurt-sheet.png::CompressedTexture2D::2200298238759329366::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/hurt/Sprites/::1721019018
+hurt-1.png::CompressedTexture2D::798302938014772276::1721019018::1721019023::1::::<><>::
+hurt-2.png::CompressedTexture2D::1878412614282380218::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/idle/::1721019018
+idle-preview.png::CompressedTexture2D::3736948559350181467::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/idle/Sprites/::1721019018
+idle-1.png::CompressedTexture2D::4535580391649133759::1721019018::1721019023::1::::<><>::
+idle-2.png::CompressedTexture2D::4862315242972950313::1721019018::1721019023::1::::<><>::
+idle-3.png::CompressedTexture2D::4818668793122936685::1721019018::1721019023::1::::<><>::
+idle-4.png::CompressedTexture2D::6709786544030509917::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/jump/::1721019018
+jump-preview.png::CompressedTexture2D::2494337685287508317::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/jump/Sprites/::1721019018
+jump-1.png::CompressedTexture2D::7954602159080543446::1721019018::1721019023::1::::<><>::
+jump-2.png::CompressedTexture2D::2821896101111880823::1721019018::1721019023::1::::<><>::
+jump-3.png::CompressedTexture2D::8312518088069596239::1721019018::1721019023::1::::<><>::
+jump-4.png::CompressedTexture2D::8444459213545869850::1721019018::1721019023::1::::<><>::
+jump-5.png::CompressedTexture2D::8577871690546267273::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/run/::1721019018
+run-preview.png::CompressedTexture2D::696850148994819022::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/run/Sprites/::1721019018
+run-1.png::CompressedTexture2D::9080548323121115246::1721019018::1721019023::1::::<><>::
+run-2.png::CompressedTexture2D::8892949466400638070::1721019018::1721019023::1::::<><>::
+run-3.png::CompressedTexture2D::3002600816305764498::1721019018::1721019023::1::::<><>::
+run-4.png::CompressedTexture2D::3051995611052027780::1721019018::1721019023::1::::<><>::
+run-5.png::CompressedTexture2D::1272044779661442150::1721019018::1721019023::1::::<><>::
+run-6.png::CompressedTexture2D::8052079615263339344::1721019018::1721019023::1::::<><>::
+run-7.png::CompressedTexture2D::228269462812398037::1721019018::1721019023::1::::<><>::
+run-8.png::CompressedTexture2D::7268533014590921473::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/shot/::1721019018
+shot-preview.png::CompressedTexture2D::3719986570151044688::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/shot/Sprites/::1721019018
+shot-1.png::CompressedTexture2D::6744529589170704451::1721019018::1721019023::1::::<><>::
+shot-2.png::CompressedTexture2D::8636491011488906116::1721019018::1721019023::1::::<><>::
+shot-3.png::CompressedTexture2D::2924990006985917077::1721019018::1721019023::1::::<><>::
+shot-4.png::CompressedTexture2D::717887936029741662::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/walk/::1721019018
+walk-preview.png::CompressedTexture2D::7643181921431532834::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Winter Pack/SPRITES/player/walk/Sprites/::1721019018
+walk-1.png::CompressedTexture2D::6646258845441627837::1721019018::1721019023::1::::<><>::
+walk-2.png::CompressedTexture2D::1493474637882283225::1721019018::1721019023::1::::<><>::
+walk-3.png::CompressedTexture2D::9192171435743262328::1721019018::1721019023::1::::<><>::
+walk-4.png::CompressedTexture2D::1847363722398496617::1721019018::1721019023::1::::<><>::
+walk-5.png::CompressedTexture2D::2475567012627761082::1721019018::1721019023::1::::<><>::
+walk-6.png::CompressedTexture2D::2584506068153761783::1721019018::1721019023::1::::<><>::
+walk-7.png::CompressedTexture2D::9148289625770668214::1721019018::1721019023::1::::<><>::
+walk-8.png::CompressedTexture2D::2803966246845280971::1721019018::1721019023::1::::<><>::
+walk-9.png::CompressedTexture2D::8454800196920517837::1721019018::1721019023::1::::<><>::
+walk-10.png::CompressedTexture2D::8170208315344766938::1721019018::1721019023::1::::<><>::
+walk-11.png::CompressedTexture2D::3584471715999836647::1721019018::1721019023::1::::<><>::
+walk-12.png::CompressedTexture2D::8863539467630332970::1721019018::1721019023::1::::<><>::
+walk-13.png::CompressedTexture2D::3947935247312108094::1721019018::1721019023::1::::<><>::
+walk-14.png::CompressedTexture2D::6471631420519975381::1721019018::1721019023::1::::<><>::
+walk-15.png::CompressedTexture2D::1232527070962861437::1721019018::1721019023::1::::<><>::
+walk-16.png::CompressedTexture2D::7730831442998614525::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/::1721019018
+Preview.png::CompressedTexture2D::197992815047755554::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/ENVIRONMENT/::1721019018
+tileset.png::CompressedTexture2D::4299560875533105076::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/ENVIRONMENT/Bacgkrounds/::1721019018
+bg-clouds.png::CompressedTexture2D::5419204548076433411::1721019018::1721019023::1::::<><>::
+bg-mountains.png::CompressedTexture2D::826730103274594101::1721019018::1721019023::1::::<><>::
+bg-trees.png::CompressedTexture2D::6262211611395569608::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/ENVIRONMENT/Props/::1721019018
+props-sheet.png::CompressedTexture2D::1693675978329048087::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/ENVIRONMENT/Props/Sprites/::1721019018
+branch-01.png::CompressedTexture2D::4525845162014958418::1721019018::1721019023::1::::<><>::
+branch-02.png::CompressedTexture2D::2825924283043348964::1721019018::1721019023::1::::<><>::
+branch-03.png::CompressedTexture2D::2494055952182548958::1721019018::1721019023::1::::<><>::
+branch-04.png::CompressedTexture2D::3734860782275407566::1721019018::1721019023::1::::<><>::
+branch-05.png::CompressedTexture2D::6540710150801957630::1721019018::1721019023::1::::<><>::
+leaves.png::CompressedTexture2D::8254650813071325199::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/PSD/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/PSD/enemies/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/PSD/Environment/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/PSD/misc/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/PSD/player/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/::1721019019
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/::1721019018
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/ant/::1721019018
+ant-sheet.png::CompressedTexture2D::143841920860536673::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/ant/Sprites/::1721019018
+ant-1.png::CompressedTexture2D::6558309584430119181::1721019018::1721019023::1::::<><>::
+ant-2.png::CompressedTexture2D::6011813982314898382::1721019018::1721019023::1::::<><>::
+ant-3.png::CompressedTexture2D::8787471099808644253::1721019018::1721019023::1::::<><>::
+ant-4.png::CompressedTexture2D::2428610867276664952::1721019018::1721019023::1::::<><>::
+ant-5.png::CompressedTexture2D::5454953512745204738::1721019018::1721019023::1::::<><>::
+ant-6.png::CompressedTexture2D::3924468060582655871::1721019018::1721019023::1::::<><>::
+ant-7.png::CompressedTexture2D::6925326350851540586::1721019018::1721019023::1::::<><>::
+ant-8.png::CompressedTexture2D::6889185385173468595::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/gator/::1721019018
+gator-sheet.png::CompressedTexture2D::2577237463311043359::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/gator/Sprites/::1721019018
+gator-1.png::CompressedTexture2D::667654737591413990::1721019018::1721019023::1::::<><>::
+gator-2.png::CompressedTexture2D::6692187866268845041::1721019018::1721019023::1::::<><>::
+gator-3.png::CompressedTexture2D::1800515767463567429::1721019018::1721019023::1::::<><>::
+gator-4.png::CompressedTexture2D::2616452985364518635::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-fall/::1721019018
+grasshopper-fall-sheet.png::CompressedTexture2D::3442624070792661315::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-fall/Sprites/::1721019018
+grasshopper-fall-1.png::CompressedTexture2D::7501479667632637908::1721019018::1721019023::1::::<><>::
+grasshopper-fall-2.png::CompressedTexture2D::8676868122468483916::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-idle/::1721019018
+grasshopper-idle-sheet.png::CompressedTexture2D::3482608186473964896::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-idle/Sprites/::1721019018
+grasshopper-idle-1.png::CompressedTexture2D::37715714640095788::1721019018::1721019023::1::::<><>::
+grasshopper-idle-2.png::CompressedTexture2D::4299608994594810820::1721019018::1721019023::1::::<><>::
+grasshopper-idle-3.png::CompressedTexture2D::428118127206148384::1721019018::1721019023::1::::<><>::
+grasshopper-idle-4.png::CompressedTexture2D::5346862575001091506::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-jump/::1721019018
+grasshopper-jump-sheet.png::CompressedTexture2D::3747761948270006738::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/enemies/grasshopper-jump/Sprites/::1721019018
+grasshopper-jump-1.png::CompressedTexture2D::3301204770921797366::1721019018::1721019023::1::::<><>::
+grasshopper-jump-2.png::CompressedTexture2D::2747999357664916608::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/misc/::1721019019
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/misc/acorn/::1721019019
+acorn-1.png::CompressedTexture2D::4831572268675536725::1721019018::1721019023::1::::<><>::
+acorn-2.png::CompressedTexture2D::2842215905984970308::1721019018::1721019023::1::::<><>::
+acorn-3.png::CompressedTexture2D::4279284398592162092::1721019018::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/misc/enemy-death/::1721019019
+enemy-death-1.png::CompressedTexture2D::8545896967796518534::1721019019::1721019023::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::4287864658306571292::1721019019::1721019023::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::1975405261648594349::1721019019::1721019023::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::2075125233830727341::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/::1721019019
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/crouch/::1721019019
+player-crouch-1.png::CompressedTexture2D::203991860203412043::1721019019::1721019023::1::::<><>::
+player-crouch-2.png::CompressedTexture2D::8088304237281840411::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/hurt/::1721019019
+player-hurt-1.png::CompressedTexture2D::6358522707595396315::1721019019::1721019023::1::::<><>::
+player-hurt-2.png::CompressedTexture2D::479817981932455129::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/idle/::1721019019
+player-idle-1.png::CompressedTexture2D::7108234479408900774::1721019019::1721019023::1::::<><>::
+player-idle-2.png::CompressedTexture2D::4759355053385287637::1721019019::1721019023::1::::<><>::
+player-idle-3.png::CompressedTexture2D::2112417271987983230::1721019019::1721019023::1::::<><>::
+player-idle-4.png::CompressedTexture2D::5797242606965749852::1721019019::1721019023::1::::<><>::
+player-idle-5.png::CompressedTexture2D::3624362708133645025::1721019019::1721019023::1::::<><>::
+player-idle-6.png::CompressedTexture2D::3298331209518166750::1721019019::1721019023::1::::<><>::
+player-idle-7.png::CompressedTexture2D::2654698642274237955::1721019019::1721019023::1::::<><>::
+player-idle-8.png::CompressedTexture2D::8749455426991599063::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/jump/::1721019019
+player-jump-1.png::CompressedTexture2D::3252723520388175806::1721019019::1721019023::1::::<><>::
+player-jump-2.png::CompressedTexture2D::2422396505147138285::1721019019::1721019023::1::::<><>::
+player-jump-3.png::CompressedTexture2D::5555851581840118067::1721019019::1721019023::1::::<><>::
+player-jump-4.png::CompressedTexture2D::156846235666450169::1721019019::1721019023::1::::<><>::
+::res://Sprites/Placeholders/Packs/Woods Pack/SPRITES/player/run/::1721019019
+player-run-1.png::CompressedTexture2D::2570913335670717372::1721019019::1721019023::1::::<><>::
+player-run-2.png::CompressedTexture2D::4697295667105443844::1721019019::1721019023::1::::<><>::
+player-run-3.png::CompressedTexture2D::4879333925090263833::1721019019::1721019023::1::::<><>::
+player-run-4.png::CompressedTexture2D::7326302297103999937::1721019019::1721019023::1::::<><>::
+player-run-5.png::CompressedTexture2D::3553901588521013528::1721019019::1721019023::1::::<><>::
+player-run-6.png::CompressedTexture2D::13413554462993429::1721019019::1721019023::1::::<><>::

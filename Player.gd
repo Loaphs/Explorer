@@ -29,7 +29,7 @@ func _physics_process(delta):
 	var direction = Input.get_axis("ui_left", "ui_right")
 	
 	if direction == -1:
-		#get_node("AnimatedSprite2D").flip_h = true
+		#get_node("AnimatedSprite2D").flip_h  = true
 		faceRight = -1
 	elif direction == 1:
 		#get_node("AnimatedSprite2D").flip_h = false

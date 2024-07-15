@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://6g0h8jcslbkq"
+path="res://.godot/imported/Environment.ase-d2aff0ba7fa1db6d38d89c7ffd6dee71.res"
+
+[deps]
+
+source_file="res://Sprites/Placeholders/Environments/Magical Road/aseprite/Environment.ase"
+dest_files=["res://.godot/imported/Environment.ase-d2aff0ba7fa1db6d38d89c7ffd6dee71.res"]
+
+[params]
+
