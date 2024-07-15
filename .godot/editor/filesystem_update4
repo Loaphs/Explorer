@@ -1,2 +1,6 @@
 res://Scenes/Worlds/world.tscn
+<<<<<<< HEAD
 res://Player.gd
+=======
+res://Scenes/Bodies/player.tscn
+>>>>>>> 0942feefb1cbbb00c1cac83e3003b9c9891c8cce

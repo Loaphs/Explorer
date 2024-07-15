@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1721018871
 icon.svg::CompressedTexture2D::5881680366592498674::1720920308::1720920313::1::::<><>::
 Player.gd::GDScript::-1::1721018652::0::1::::<>CharacterBody2D<>::
@@ -1446,3 +1447,18 @@ player-run-3.png::CompressedTexture2D::4879333925090263833::1721019019::17210190
 player-run-4.png::CompressedTexture2D::7326302297103999937::1721019019::1721019023::1::::<><>::
 player-run-5.png::CompressedTexture2D::3553901588521013528::1721019019::1721019023::1::::<><>::
 player-run-6.png::CompressedTexture2D::13413554462993429::1721019019::1721019023::1::::<><>::
+=======
+::res://::1721020450
+icon.svg::CompressedTexture2D::5881680366592498674::1721018557::1721018613::1::::<><>::
+Player.gd::GDScript::-1::1721018557::0::1::::<>CharacterBody2D<>::
+README.md::TextFile::-1::1721018557::0::1::::<><>::
+::res://Assets/::1721018699
+::res://Assets/Dev/::1721020450
+NeutralLightingTexture.webp::CompressedTexture2D::4482274121688953761::1721020447::1721020450::1::::<><>::
+tiles1.png::CompressedTexture2D::5258939861685000718::1721018704::1721018704::1::::<><>::
+::res://Scenes/::1721018557
+::res://Scenes/Bodies/::1721020106
+player.tscn::PackedScene::5422964088100407947::1721020106::0::1::::<><>::res://Player.gd<>uid://cp2eofi10n6fu::::res://icon.svg
+::res://Scenes/Worlds/::1721020191
+world.tscn::PackedScene::6449451798249684381::1721020191::0::1::::<><>::uid://cji6oqynhce0j::::res://Scenes/Bodies/player.tscn<>uid://cg6p8axkovcpa::::res://Assets/Dev/tiles1.png
+>>>>>>> 0942feefb1cbbb00c1cac83e3003b9c9891c8cce
