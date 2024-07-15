@@ -21,15 +21,19 @@ func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
 	
-	if Input.is_action_just_pressed("jump") and is_on_floor():
 	# Handle Jump.
-		velocity.y = JUMP_VELOCITY
-		#anim.play("JumpStart")
+	if Input.is_action_just_pressed("jump"):
+		
+		
+		if is_on_floor():
+	
+			velocity.y = JUMP_VELOCITY
+			#anim.play("JumpStart")
 		
 	var direction = Input.get_axis("ui_left", "ui_right")
 	
 	if direction == -1:
-		#get_node("AnimatedSprite2D").flip_h  = true
+		#get_node("AnimatedSprite2D").flip_h  z= true
 		faceRight = -1
 	elif direction == 1:
 		#get_node("AnimatedSprite2D").flip_h = false
