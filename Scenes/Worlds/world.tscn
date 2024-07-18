@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://cx5fr8lstcqev"]
+[gd_scene load_steps=8 format=3 uid="uid://cx5fr8lstcqev"]
 
 [ext_resource type="PackedScene" uid="uid://cji6oqynhce0j" path="res://Scenes/Bodies/player.tscn" id="1_fphe6"]
 [ext_resource type="Texture2D" uid="uid://cg6p8axkovcpa" path="res://Assets/Dev/tiles1.png" id="2_02tkq"]
+[ext_resource type="PackedScene" uid="uid://ddqo8pb8u7qsp" path="res://Scenes/Gameplay/grapple.tscn" id="2_yaxvf"]
 [ext_resource type="Texture2D" uid="uid://b44inukj3w618" path="res://Assets/Dev/NeutralLightingTexture.webp" id="3_x0hhe"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_d4atb"]
@@ -64,6 +65,9 @@ sources/0 = SubResource("TileSetAtlasSource_akkiu")
 [node name="World" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_fphe6")]
+position = Vector2(548, 234)
+
+[node name="Grappling Hook" parent="." instance=ExtResource("2_yaxvf")]
 position = Vector2(548, 234)
 
 [node name="TileMap" type="TileMap" parent="."]
