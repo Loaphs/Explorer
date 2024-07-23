@@ -58,7 +58,7 @@ texture = ExtResource("2_02tkq")
 
 [sub_resource type="TileSet" id="TileSet_fil66"]
 occlusion_layer_0/light_mask = 1
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 3
 navigation_layer_0/layers = 1
 sources/0 = SubResource("TileSetAtlasSource_akkiu")
 
@@ -68,7 +68,10 @@ sources/0 = SubResource("TileSetAtlasSource_akkiu")
 position = Vector2(548, 234)
 
 [node name="Grappling Hook" parent="." instance=ExtResource("2_yaxvf")]
-position = Vector2(548, 234)
+position = Vector2(608, 208)
+collision_layer = 2
+lock_rotation = true
+freeze_mode = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(1, 1)
