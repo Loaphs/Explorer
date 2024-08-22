@@ -69,7 +69,6 @@ position = Vector2(548, 234)
 
 [node name="Grappling Hook" parent="." instance=ExtResource("2_yaxvf")]
 position = Vector2(608, 208)
-collision_layer = 2
 lock_rotation = true
 freeze_mode = 1
 
@@ -84,3 +83,6 @@ position = Vector2(754, 289)
 scale = Vector2(1.12589, 1.05024)
 shadow_enabled = true
 texture = ExtResource("3_x0hhe")
+
+[node name="Player2" parent="." instance=ExtResource("1_fphe6")]
+position = Vector2(677, 229)
