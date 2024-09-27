@@ -67,6 +67,14 @@ sources/0 = SubResource("TileSetAtlasSource_akkiu")
 [node name="Player" parent="." instance=ExtResource("1_fphe6")]
 position = Vector2(548, 234)
 
+<<<<<<< HEAD
+=======
+[node name="Grappling Hook" parent="." instance=ExtResource("2_yaxvf")]
+position = Vector2(608, 208)
+lock_rotation = true
+freeze_mode = 1
+
+>>>>>>> refs/remotes/origin/kitty
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(1, 1)
 tile_set = SubResource("TileSet_fil66")
@@ -78,3 +86,6 @@ position = Vector2(754, 289)
 scale = Vector2(1.12589, 1.05024)
 shadow_enabled = true
 texture = ExtResource("3_x0hhe")
+
+[node name="Player2" parent="." instance=ExtResource("1_fphe6")]
+position = Vector2(677, 229)
