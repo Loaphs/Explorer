@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://cx5fr8lstcqev"]
+[gd_scene load_steps=7 format=3 uid="uid://cx5fr8lstcqev"]
 
 [ext_resource type="PackedScene" uid="uid://cji6oqynhce0j" path="res://Scenes/Bodies/player.tscn" id="1_fphe6"]
 [ext_resource type="Texture2D" uid="uid://cg6p8axkovcpa" path="res://Assets/Dev/tiles1.png" id="2_02tkq"]
-[ext_resource type="PackedScene" uid="uid://ddqo8pb8u7qsp" path="res://Scenes/Gameplay/grapple.tscn" id="2_yaxvf"]
 [ext_resource type="Texture2D" uid="uid://b44inukj3w618" path="res://Assets/Dev/NeutralLightingTexture.webp" id="3_x0hhe"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_d4atb"]
@@ -59,6 +58,7 @@ texture = ExtResource("2_02tkq")
 [sub_resource type="TileSet" id="TileSet_fil66"]
 occlusion_layer_0/light_mask = 1
 physics_layer_0/collision_layer = 3
+physics_layer_0/collision_mask = 3
 navigation_layer_0/layers = 1
 sources/0 = SubResource("TileSetAtlasSource_akkiu")
 
@@ -66,12 +66,6 @@ sources/0 = SubResource("TileSetAtlasSource_akkiu")
 
 [node name="Player" parent="." instance=ExtResource("1_fphe6")]
 position = Vector2(548, 234)
-
-[node name="Grappling Hook" parent="." instance=ExtResource("2_yaxvf")]
-position = Vector2(608, 208)
-collision_layer = 2
-lock_rotation = true
-freeze_mode = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(1, 1)

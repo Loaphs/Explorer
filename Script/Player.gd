@@ -1,6 +1,10 @@
 extends CharacterBody2D
 
 
+var grappleObj
+var grapple
+var throw_strength = 45000
+var loaded = false
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
@@ -14,7 +18,15 @@ var landing : bool
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	grappleObj = preload("res://Scenes/Gameplay/grapple.tscn")
+
+func _process(_delta):
+	# Controls Grapple functions, like throwing and retracting.
+	if Input.is_action_just_pressed("reload") && !loaded:
+		reload()
+	if Input.is_action_just_pressed("grapple") && loaded:
+		loaded = false
+		grapple.throw_grapple(throw_strength)
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -49,3 +61,11 @@ func _physics_process(delta):
 		#anim.play("Fall")
 
 	move_and_slide()
+
+# Instantiate new grapple hook, deleting old one.
+func reload():
+	if grapple:
+		grapple.queue_free()
+	grapple = grappleObj.instantiate()
+	get_parent().add_child(grapple)
+	loaded = true
